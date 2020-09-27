@@ -4,6 +4,7 @@
 # sub-menu
 # name || icon:
 #   name || link || icon
+
 menu:
   首页: / || fas fa-home
   标签: /tags/ || fas fa-tags
@@ -17,10 +18,10 @@ menu:
 
 # Hide the child menu items in mobile sidebar
 hide_sidebar_menu_child: false
-# --------------------------------------
 
 # Code Blocks (代码块)
 # --------------------------------------
+
 highlight_theme: light #  darker / pale night / light / ocean / mac / mac light / false
 highlight_copy: true # copy button
 highlight_lang: true # show the code language
@@ -34,17 +35,19 @@ copy:
   copyright:
     enable: false
     limit_count: 50
-# --------------------------------------
 
 # social settings (社交圖標設置)
+# --------------------------------------
 # formal:
 #   icon: link || the description
+
 social:
   fab fa-github: https://github.com/ql-isaac || Github
   fas fa-envelope: mailto:qinlei.isaac@qq.com || 邮件
 
 # search (搜索)
 # --------------------------------------
+
 # Algolia search
 algolia_search:
   enable: false
@@ -62,7 +65,6 @@ local_search:
   labels:
     input_placeholder: Search for Posts
     hits_empty: "We didn't find any results for the search: ${query}" # if there are no result
-# --------------------------------------
 
 # Math (數學)
 # --------------------------------------
@@ -81,10 +83,10 @@ katex:
   enable: false
   per_page: false
   hide_scrollbar: true
-# --------------------------------------
 
 # Image (圖片設置)
 # --------------------------------------
+
 # Favicon（網站圖標）
 favicon: /img/favicon.png
 
