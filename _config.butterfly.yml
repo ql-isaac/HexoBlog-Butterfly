@@ -14,7 +14,7 @@ menu:
   电影: /movies/ || fas fa-video
   游戏: /games/ || fas fa-gamepad
   友链: /link/ || fas fa-link
-  关于: /about/ || fas fa-heart
+  #关于: /about/ || fas fa-heart
 
 # Hide the child menu items in mobile sidebar
 hide_sidebar_menu_child: false
@@ -107,7 +107,7 @@ archive_img: https://image.ql-isaac.cn/%E5%BD%92%E6%A1%A3.jpg
 
 # the banner image of tag page
 # note: tag page, not tags page (子標籤頁面的 top_img)
-tag_img:
+tag_img: https://image.ql-isaac.cn/标签.jpg
 
 # the banner image of category page
 # note: category page, not categories page (子分類頁面的 top_img)
@@ -177,7 +177,7 @@ index_post_content:
 toc:
   enable: true
   number: true
-  auto_open: true # auto open the sidebar
+  auto_open: false # auto open the sidebar
 
 post_copyright:
   enable: true
@@ -331,7 +331,7 @@ facebook_comments:
 
 # Chat Button [recommend]
 # It will create a button in the bottom right corner of website, and hide the origin button
-chat_btn: true
+chat_btn: false
 
 # The origin chat button is displayed when scrolling up, and the button is hidden when scrolling down
 chat_hide_show: true
