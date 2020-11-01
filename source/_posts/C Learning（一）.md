@@ -1,31 +1,31 @@
 ---
-title: 	C从入门到精通（一）
+title: 	C 从入门到精通（一）
 cover: https://image.ql-isaac.cn/C%E4%BB%8E%E5%85%A5%E9%97%A8%E5%88%B0%E7%B2%BE%E9%80%9A%EF%BC%88%E4%B8%80%EF%BC%89.jpg
-description: 任何比C语言更低级的语言，都不足以完整地抽象一个计算机系统，任何比C语言高级的语言，都可以用C语言实现。C语言不像是被发明的，它更像是被发现的，它无可替代、精妙绝伦。
+description: 任何比 C 语言更低级的语言，都不足以完整地抽象一个计算机系统，任何比 C 语言高级的语言，都可以用 C 语言实现。C 语言不像是被发明的，它更像是被发现的，它无可替代、精妙绝伦。
 tags:
  - Ubuntu 18.04 LTS
  - VMware pro 15
  - CLion
-categories: C从入门到精通
+categories: C 从入门到精通
 ---
 
-　　任何比C语言更低级的语言，都不足以完整地抽象一个计算机系统，任何比C语言高级的语言，都可以用C语言实现。C语言不像是被发明的，它更像是被发现的，它无可替代、精妙绝伦。
+　　任何比 C 语言更低级的语言，都不足以完整地抽象一个计算机系统，任何比 C 语言高级的语言，都可以用 C 语言实现。C 语言不像是被发明的，它更像是被发现的，它无可替代、精妙绝伦。
 
-## C语言的简单历史
+## C 语言的简单历史
 
-　　C语言是从B语言发展而来，B语言是从BCPL发展而来，BCPL是从FORTRAN发展而来，1973年3月，第三版的Unix上出现了C语言的编译器，1973年11月，第四版的Unix发布了，这个版本是完全用C语言重新写的。
+　　C 语言是从 B 语言发展而来，B 语言是从 BCPL 发展而来，BCPL 是从 FORTRAN 发展而来。C语言于1972年11月问世，1973 年 3 月，第三版的 Unix 上出现了C 语言的编译器，1973 年 11 月，第四版的 Unix 发布了，这个版本是完全用 C 语言重新写的，1978 年美国电话电报公司（AT&T）贝尔实验室正式发布 C 语言，1983 年美国国家标准局（American National Standards Institute，简称 ANSI）开始制定 C 语言标准，于 1989 年 12 月完成，并在 1990 年春天发布，称之为 ANSI C，有时也被称为 C89 或 C90。
 
-## 搭建C学习环境
+## 搭建 C 语言学习环境
 
-### 安装VMware pro 15
+### 安装 VMware pro 15
 
-　　下载[学习版](https://www.52pojie.cn/thread-1026907-1-1.html)，安装步骤不多说了，只是有一点建议，也是我装软件的原则：能不装C盘就别装C盘。
+　　下载[学习版](https://www.52pojie.cn/thread-1026907-1-1.html)，安装步骤不多说了，只是有一点建议，也是我装软件的原则：能不装 C 盘就别装 C 盘。
 
-### [下载Ubuntu 18.04 LTS系统映像](https://cn.ubuntu.com/download)
+### [下载 Ubuntu 18.04 LTS 系统映像](https://cn.ubuntu.com/download)
 
-### 安装Ubuntu 18.04 LTS
+### 安装 Ubuntu 18.04 LTS
 
-1. VMware pro 15安装完成后，启动，点击创建新的虚拟机；
+1. VMware pro 15 安装完成后，启动，点击创建新的虚拟机；
 
    ![创建新的虚拟机](https://image.ql-isaac.cn/%E5%88%9B%E5%BB%BA%E6%96%B0%E7%9A%84%E8%99%9A%E6%8B%9F%E6%9C%BA.png)
 
@@ -37,27 +37,27 @@ categories: C从入门到精通
 
    ![选择稍后安装操作系统](https://image.ql-isaac.cn/%E9%80%89%E6%8B%A9%E7%A8%8D%E5%90%8E%E5%AE%89%E8%A3%85%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F.png)
 
-4. 客户机操作系统选择Linux，版本选择Ubuntu 64位，下一步；
+4. 客户机操作系统选择 Linux，版本选择 Ubuntu 64 位，下一步；
 
    ![选择客户机操作系统](https://image.ql-isaac.cn/%E9%80%89%E6%8B%A9%E5%AE%A2%E6%88%B7%E6%9C%BA%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F.png)
 
-5. 虚拟机名称和位置自定义。我这里名称就设为Ubuntu 18.04 LTS，位置就设在D:\Virtual Machines\Ubuntu 18.04 LTS下，下一步；
+5. 虚拟机名称和位置自定义。我这里名称就设为 Ubuntu 18.04 LTS，位置就设在 D:\Virtual Machines\Ubuntu 18.04 LTS 下，下一步；
 
    ![虚拟机名称和位置](https://image.ql-isaac.cn/%E8%99%9A%E6%8B%9F%E6%9C%BA%E5%90%8D%E7%A7%B0%E5%92%8C%E4%BD%8D%E7%BD%AE.png)
 
-6. 磁盘容量自定义。我这里就设为60GB，下一步，完成；
+6. 磁盘容量自定义。我这里就设为 60GB，下一步，完成；
 
    ![指定磁盘容量](https://image.ql-isaac.cn/%E6%8C%87%E5%AE%9A%E7%A3%81%E7%9B%98%E5%AE%B9%E9%87%8F.png)
 
-7. 点击编辑此虚拟机，将处理器数量设为4（一般为自己实体机处理器数量的一半）；
+7. 点击编辑此虚拟机，将处理器数量设为 4（一般为自己实体机处理器数量的一半）；
 
    ![处理器数量](https://image.ql-isaac.cn/%E5%A4%84%E7%90%86%E5%99%A8%E6%95%B0%E9%87%8F.png)
 
-8. 点击CD/DVD (SATA)，选择使用ISO映像文件，浏览，选择Ubuntu 18.04 LTS系统的ISO映像文件，确定，点击开启此虚拟机，等待；
+8. 点击 CD/DVD (SATA)，选择使用 ISO 映像文件，浏览，选择 Ubuntu 18.04 LTS 系统的 ISO 映像文件，确定，点击开启此虚拟机，等待；
 
    ![选择系统镜像](https://image.ql-isaac.cn/%E9%80%89%E6%8B%A9%E7%B3%BB%E7%BB%9F%E9%95%9C%E5%83%8F.png)
 
-9. 选择中文(简体)，再选择安装Ubuntu；
+9. 选择中文(简体)，再选择安装 Ubuntu；
 
    ![中文简体](https://image.ql-isaac.cn/%E9%80%89%E6%8B%A9%E7%B3%BB%E7%BB%9F%E9%95%9C%E5%83%8F.png)
 
@@ -77,7 +77,7 @@ categories: C从入门到精通
 
    ![再次确认](https://image.ql-isaac.cn/再次确认.png)
 
-14. 在地图上点击，选择shanghai，继续；
+14. 在地图上点击，选择 shanghai，继续；
 
    ![shanghai](https://image.ql-isaac.cn/shanghai.png)
 
@@ -97,9 +97,9 @@ categories: C从入门到精通
 
    ![登录](https://image.ql-isaac.cn/登录.png)
 
-### 安装VMware Tools
+### 安装 VMware Tools
 
-　　可以安装上VMware Tools让我们拥有最佳的Ubuntu 18.04 LTS的操作体验，如在实体机上一般。首先点击左上方的虚拟机，再点击安装VMware Tools，这时会在桌面出现一个DVD，接下来具体安装过程如下：
+　　可以安装上 VMware Tools 让我们拥有最佳的 Ubuntu 18.04 LTS 的操作体验，如在实体机上一般。首先点击左上方的虚拟机，再点击安装 VMware Tools，这时会在桌面出现一个 DVD，接下来具体安装过程如下：
 
    ![安装VMware_Tools](https://image.ql-isaac.cn/安装VMware_Tools.gif)
 
@@ -113,7 +113,7 @@ categories: C从入门到精通
 
    ![设置](https://image.ql-isaac.cn/设置.png)
 
-3. 点击Ubuntu软件，设置下载源；
+3. 点击 Ubuntu 软件，设置下载源；
 
    ![Ubuntu软件](https://image.ql-isaac.cn/Ubuntu软件.png)
 
@@ -129,19 +129,19 @@ categories: C从入门到精通
 
    ![更新](https://image.ql-isaac.cn/更新.png)
 
-### 美化自己的Ubuntu 18.04 LTS
+### 美化自己的 Ubuntu 18.04 LTS
 
-1. 右键点击桌面，在终端打开，输入以下命令回车，输入用户密码安装gnome-tweak-tool软件包；
+1. 右键点击桌面，在终端打开，输入以下命令回车，输入用户密码安装 gnome-tweak-tool 软件包；
 
    ```bash
    sudo apt install gnome-tweak-tool
    ```
 
-2. 火狐浏览器访问 https://extensions.gnome.org ，点击安装该浏览器扩展；
+2. 火狐浏览器访问 https://extensions.gnome.org，点击安装该浏览器扩展；
 
    ![安装浏览器扩展](https://image.ql-isaac.cn/安装浏览器扩展.png)
 
-3. 刷新一下浏览器，这时会有错误信息，右键点击桌面，在终端打开，输入以下命令回车，输入用户密码安装chrome-gnome-shell软件包，再刷新一下浏览器，错误消失了；
+3. 刷新一下浏览器，这时会有错误信息，右键点击桌面，在终端打开，输入以下命令回车，输入用户密码安装 chrome-gnome-shell 软件包，再刷新一下浏览器，错误消失了；
 
    ```bash
    sudo apt install chrome-gnome-shell
@@ -149,11 +149,11 @@ categories: C从入门到精通
 
    ![错误](https://image.ql-isaac.cn/错误.png)
 
-3. 分别点击两个GNOME Shell扩展User Themes和Dash to Dock，将它们都开启（即安装）；
+3. 分别点击两个 GNOME Shell 扩展 User Themes 和 Dash to Dock，将它们都开启（即安装）；
 
    ![两个扩展](https://image.ql-isaac.cn/两个扩展.png)
 
-4. 在安装完Dash to Dock时，你会发现侧边栏消失了，相信这是大多数人想要的效果；
+4. 在安装完 Dash to Dock 时，你会发现侧边栏消失了，相信这是大多数人想要的效果；
 
    ![侧边栏消失了](https://image.ql-isaac.cn/侧边栏消失了.png)
 
@@ -161,7 +161,7 @@ categories: C从入门到精通
 
    ![优化](https://image.ql-isaac.cn/优化.png)
 
-6. 打开Dash to Dock的设置；
+6. 打开 Dash to Dock 的设置；
 
    ![DashtoDock设置](https://image.ql-isaac.cn/DashtoDock设置.png)
 
@@ -169,13 +169,13 @@ categories: C从入门到精通
 
    ![智能隐藏的设置](https://image.ql-isaac.cn/智能隐藏的设置.png)
 
-8. 勾选在全屏状态下启用，不勾选推压以显示......，调整显示超时时间为0.2秒，关闭窗口，此时，再打开火狐浏览器，当把鼠标移动到左侧，侧边栏自动显示，移走鼠标，侧边栏自动隐藏，相信这同样是大多数人想要的效果；
+8. 勾选在全屏状态下启用，不勾选推压以显示......，调整显示超时时间为 0.2 秒，关闭窗口，此时，再打开火狐浏览器，当把鼠标移动到左侧，侧边栏自动显示，移走鼠标，侧边栏自动隐藏，相信这同样是大多数人想要的效果；
 
    ![设置和调整](https://image.ql-isaac.cn/设置和调整.png)
 
    ![智能隐藏](https://image.ql-isaac.cn/智能隐藏.gif)
 
-9. 打开火狐浏览器，进入[该网址](https://www.gnome-look.org/p/1275087/)下载McMojave主题，等待，确定；
+9. 打开火狐浏览器，进入[该网址](https://www.gnome-look.org/p/1275087/)下载 McMojave 主题，等待，确定；
 
    ![下载主题](https://image.ql-isaac.cn/下载主题.png)
 
@@ -187,17 +187,17 @@ categories: C从入门到精通
 
    ![右键](https://image.ql-isaac.cn/右键.png)
 
-12. 输入以下命令回车，输入用户密码，将Mojave-light目录移动到/usr/share/themes/下；
+12. 输入以下命令回车，输入用户密码，将 Mojave-light 目录移动到 /usr/share/themes/ 下；
 
    ```bash
    sudo mv Mojave-light/ /usr/share/themes/
    ```
 
-13. 打开优化，选择Mojave-light主题，就能看到效果了；
+13. 打开优化，选择 Mojave-light 主题，就能看到效果了；
 
    ![更换主题](https://image.ql-isaac.cn/更换主题.gif)
 
-14. 火狐浏览器进入 https://www.gnome-look.org/p/1305429/ ，下载McMojave-circle图标，等待，确定；
+14. 火狐浏览器进入 https://www.gnome-look.org/p/1305429/，下载 McMojave-circle 图标，等待，确定；
 
    ![下载图标](https://image.ql-isaac.cn/下载图标.png)
 
@@ -207,31 +207,31 @@ categories: C从入门到精通
    sudo mv McMojave-circle/ /usr/share/icons/
    ```
 
-16. 打开优化，选择McMojave-circle图标，就能看到效果了；
+16. 打开优化，选择 McMojave-circle 图标，就能看到效果了；
 
    ![更换图标](https://image.ql-isaac.cn/更换图标.gif)
 
-17. 有一个地方忘记了，打开优化，选择shell为Mojave-light；
+17. 有一个地方忘记了，打开优化，选择 shell 为 Mojave-light；
 
    ![更换shell](https://image.ql-isaac.cn/更换shell.gif)
 
-18. 可以在Dash to Dock设置中设置侧边栏的位置在底部；
+18. 可以在 Dash to Dock 设置中设置侧边栏的位置在底部；
 
    ![设置在底部](https://image.ql-isaac.cn/设置在底部.png)
 
-19. 最后，在优化-》窗口中，设置标题栏按钮在左边，右键桌面更换个壁纸，看起来非常像Mac了，至此，美化算是告一段落了。
+19. 最后，在优化-》窗口中，设置标题栏按钮在左边，右键桌面更换个壁纸，看起来非常像 Mac 了，至此，美化算是告一段落了。
 
    {% dplayer "https://image.ql-isaac.cn/%E7%BE%8E%E5%8C%96.mp4" %}
 
-### 安装build-essential软件包和Vim文本编辑器
+### 安装 build-essential 软件包和 Vim 文本编辑器
 
-　　右键点击桌面，在终端打开，输入以下命令回车，输入用户密码安装build-essential软件包。
+　　右键点击桌面，在终端打开，输入以下命令回车，输入用户密码安装 build-essential 软件包。
 
 ```bash
 sudo apt-get install build-essential
 ```
 
-再输入以下命令回车，输入用户密码安装Vim文本编辑器。
+再输入以下命令回车，输入用户密码安装 Vim 文本编辑器。
 
 ```bash
 sudo apt-get install vim
@@ -239,20 +239,20 @@ sudo apt-get install vim
 
 ## 注释
 
-　　如何注释应该是我们学习任何一门编程语言最先需要知道的，C语言中有两种注释方式：
+　　如何注释应该是我们学习任何一门编程语言最先需要知道的，C 语言中有两种注释方式：
 
 - 以`/*`开始`*/`结束的块注释（block comment）；
 - 以`//`开始换行符结束的单行注释（line comment）；
 
-## C学习起步
+## C 语言学习起步
 
-　　右键点击桌面，新建一个学习文件夹C Learning，点开，再新建文件夹（一），再点开，再新建文件夹20200404，再点开，右键，在终端打开。
+　　右键点击桌面，新建一个学习文件夹 C Learning，点开，再新建文件夹（一），再点开，再新建文件夹 20200404 ，再点开，右键，在终端打开。
 
 ![20200404](https://image.ql-isaac.cn/20200404.png)
 
-### 新建C源文件、用Vim编辑并保存
+### 新建 C 源文件、用 Vim 编辑并保存
 
-　　输入以下命令新建hello_world.c源文件并用Vim打开：
+　　输入以下命令新建 hello_world.c 源文件并用 Vim 打开：
 
 ```bash
 vim hello_world.c
@@ -260,7 +260,7 @@ vim hello_world.c
 
 ![hello_world.c](https://image.ql-isaac.cn/hello_world.c.png)
 
-　　按下i键进入插入模式，国际惯例，编写第一个程序：打印“Hello,World!”：
+　　按下i键进入插入模式，国际惯例，编写第一个程序：打印”Hello,World!”：
 
 ```c  /home/ql/桌面/C Learning/（一）/20200404/hello_world.c
 #include <stdio.h>
@@ -270,19 +270,19 @@ int main(){
 }
 ```
 
-　　按下ESC键进入一般模式，再按SHIFT+;键（即:键）进入命令模式，输入wq命令（write和quit），这样源文件就保存了。
+　　按下 ESC 键进入一般模式，再按 SHIFT 和 ;组合键（即:键）进入命令模式，输入 wq 命令（write 和 quit），这样源文件就保存了。
 
 ![保存](https://image.ql-isaac.cn/保存.gif)
 
 ### 编译
 
-　　之后就是编译（小技巧：打hello_world.c时，可以只打h再按TAB键，系统能自动匹配）：
+　　之后就是编译（小技巧：打 hello_world.c 时，可以只打 h 再按 TAB 键，系统能自动匹配）：
 
 ```bash
 gcc hello_world.c
 ```
 
-　　输入以上命令后没有任何提示，别慌，这是正常的，在Linux中，没有消息就是好消息。可以输入以下命令(ls -alF的别名）列出当前目录下有哪些文件和目录，./指的是当前目录，../指的是上一级目录，hello_world.c是刚刚保存的C源文件，那这个a.out*是什么呢？没错，就是刚刚编译出来的可执行文件（ 星号表示该文件为可执行文件）。
+　　输入以上命令后没有任何提示，别慌，这是正常的，在 Linux 中，没有消息就是好消息。可以输入以下命令(`ls -alF *`的别名）列出当前目录下有哪些文件和目录，./指的是当前目录，../指的是上一级目录，hello_world.c 是刚刚保存的 C 源文件，那这个“a.out*”是什么呢？没错，就是刚刚编译出来的可执行文件（ 星号表示该文件为可执行文件）。
 
 ```bash
 ll
@@ -302,11 +302,11 @@ ll
 
 ### 小结
 
-　　以上就是C学习的起步内容，下面就开始正式的学习，会总是需要用到上面提到的新建并编辑保存、编译和运行的相关命令，还有一个小技巧，可以使用键盘的方向键上和下在历史命令中切换。
+　　以上就是 C 学习的起步内容，下面就开始正式的学习，会总是需要用到上面提到的新建并编辑保存、编译和运行的相关命令，还有一个小技巧，可以使用键盘的方向键上和下在历史命令中切换。
 
 ## 做点计算
 
-范例：做点计算（新建compute.c)
+范例：做点计算（新建 compute.c）
 
 ```c /home/ql/桌面/C Learning/（一）/20200404/compute.c
 #include <stdio.h>
@@ -338,7 +338,7 @@ int main(){
 
 ### 变量类型
 
-　　C语言是一种强类型的语言，所有的变量都必须有类型。
+　　C 语言是一种强类型的语言，所有的变量都必须有类型。
 
 ### 变量定义
 
@@ -348,7 +348,7 @@ int main(){
 <类型名称> <变量名称>;
 ```
 
-范例：定义变量price,存放价格的int型数据，定义变量payment，存放支付金额的int型数据
+范例：定义变量 price,存放价格的 int 型数据，定义变量 payment，存放支付金额的 int 型数据
 
 ```c
 int price;
@@ -367,7 +367,7 @@ int price,payment; //可以在一行中定义多个同类型的变量，有逗�
 
 ### 赋值运算符
 
-　　赋值也是一种运算，运算符为`=`，表示将右边的值复制一份赋给左边的变量，那么，这和数学中的等于号是一样的吗？当然不是，数学中的等于号表示的是相等的关系，C语言也有表示相等关系的运算符，即`==`。
+　　赋值也是一种运算，运算符为`=`，表示将右边的值复制一份赋给左边的变量，那么，这和数学中的等于号是一样的吗？当然不是，数学中的等于号表示的是相等的关系，C 语言也有表示相等关系的运算符，即`==`。
 
 范例：使用赋值运算符初始化变量
 
@@ -391,9 +391,9 @@ payment=100;
 int price=56,payment=100; 
 ```
 
-### 用scanf()函数初始化变量
+### 用 scanf() 函数初始化变量
 
-范例：定义price和payment并用scanf()函数初始化它们
+范例：定义 price 和 payment 并用 scanf() 函数初始化它们
 
 ```c
 int price,payment;
@@ -405,7 +405,7 @@ scanf("%d",&payment); //同上
 
 ### 变量的使用
 
-范例：找零（新建change.c)
+范例：找零（新建 change.c)
 
 ```c /home/ql/桌面/C Learning/（一）/20200404/change.c
 #include <stdio.h>
@@ -429,7 +429,7 @@ int main(){
 
 ### 没有初始化变量的后果
 
-范例：没有初始化payment（修改change.c)
+范例：没有初始化 payment（修改 change.c)
 
 ```c /home/ql/桌面/C Learning/（一）/20200404/change.c
 #include <stdio.h>
@@ -449,7 +449,7 @@ int main(){
 
 ![没有初始化变量](https://image.ql-isaac.cn/没有初始化变量.gif)
 
-　　什么！找零2亿多？？！！原来，变量在没有初始化，也就是刚一定义时，其实就是有值的，可是这个值只有计算机知道，在发生意想不到的问题之前，我们应该时刻注意变量在定义后一定要初始化。
+　　什么！找零 2 亿多？？！！原来，变量在没有初始化，也就是刚一定义时，其实就是有值的，可是这个值只有计算机知道，在发生意想不到的问题之前，我们应该时刻注意变量在定义后一定要初始化。
 
 ## 常量
 
@@ -469,9 +469,9 @@ const <类型名称> <常量名称>; //const是一个修饰符，是constant（�
 
 ### 常量的使用
 
-　　在找零程序中，该商品，比如说一本书，它的价格就是56元，没必要总是输入56，于是我们可以这么写：
+　　在找零程序中，该商品，比如说一本书，它的价格就是 56 元，没必要总是输入 56，于是我们可以这么写：
 
-范例：使用常量（修改change.c)
+范例：使用常量（修改 change.c)
 
 ```c /home/ql/桌面/C Learning/（一）/20200404/change.c
 #include <stdio.h>
@@ -487,9 +487,9 @@ int main(){
 }
 ```
 
-　　如果我们尝试去修改PRICE会如何？来试一下：
+　　如果我们尝试去修改 PRICE 会如何？来试一下：
 
-范例：尝试修改PRICE（修改change.c)
+范例：尝试修改 PRICE（修改change.c)
 
 ```c /home/ql/桌面/C Learning/（一）/20200404/change.c
 #include <stdio.h>
@@ -513,9 +513,9 @@ int main(){
 
 ## 浮点型
 
-　　美国人习惯用几英尺几英寸的方式描述自己的身高，如果遇到一个美国人告诉你他的身高为5英尺7英寸，他的身高应该是一米几呢？由于1英尺=12英寸=0.3048 米，所以5英尺7英寸应该为(5+7/12)*0.3048米，即1.7018米。来写个程序：
+　　美国人习惯用几英尺几英寸的方式描述自己的身高，如果遇到一个美国人告诉你他的身高为 5 英尺 7 英寸，他的身高应该是一米几呢？由于 1 英尺 = 12 英寸 = 0.3048 米，所以 5 英尺 7 英寸应该为 (5+7/12)*0.3048 米，即 1.7018 米。来写个程序：
 
-范例：长度换算（新建length_conversion.c)
+范例：长度换算（新建 length_conversion.c)
 
 ```c
 #include <stdio.h>
@@ -534,11 +534,11 @@ int main(){
 
 ![长度换算](https://image.ql-isaac.cn/长度换算.gif)
 
-　　英尺似乎没发挥作用？这是怎么回事？原来，是由于C语言中相同数据类型的变量的计算结果仍然是该类型，inch是int类型，12是整形常量，默认是int类型，那么对于这个值永远都是在0到11范围的inch来说，其与12的除法运算永远都是int类型，永远都会直接舍弃掉小数点后面的数据，永远都为0，所以才会有以上的运行结果。
+　　英尺似乎没发挥作用？这是怎么回事？原来，是由于 C 语言中相同数据类型的变量的计算结果仍然是该类型，inch 是 int 类型，12 是整形常量，默认是 int 类型，那么对于这个值永远都是在 0 到 11 范围的 inch 来说，其与 12 的除法运算永远都是 int 类型，永远都会直接舍弃掉小数点后面的数据，永远都为 0，所以才会有以上的运行结果。
 
-　　那么，以上程序该如何改进呢？这里，又紧接着引入一个知识点：在C语言中不同数据类型的变量的运算，是先将所有变量统一转化为一种表示范围最大的数据类型。
+　　那么，以上程序该如何改进呢？这里，又紧接着引入一个知识点：在 C 语言中不同数据类型的变量的运算，是先将所有变量统一转化为一种表示范围最大的数据类型。
 
-范例：长度换算（改）（修改length_conversion.c)
+范例：长度换算（改）（修改 length_conversion.c)
 
 ```c
 #include <stdio.h>
@@ -548,7 +548,7 @@ int main(){
     int foot; //英尺
     int inch; //英寸
     scanf("%d,%d",&foot,&inch);
-    printf("身高是%f米\n",((foot+inch/12.0)*0.3048)); //12是整形常量，默认是int类型,12.0是浮点型常量，默认是double类型
+    printf("身高是%f米\n",((foot+inch/12.0)*0.3048)); //12是整形常量，默认是int类型，12.0是浮点型常量，默认是double类型
     return 0;
 }
 ```
