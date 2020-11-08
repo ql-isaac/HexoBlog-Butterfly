@@ -1,5 +1,5 @@
 ---
-title: Hello World
+title: Hello,World!
 cover: https://image.ql-isaac.cn/Hello%20World.jpg
 description: Welcome to Hexo!This is your very first post.Check documentation for more info.If you get any problems when using Hexo,you can find the answer in troubleshooting or you can ask me on GitHub.
 ---
