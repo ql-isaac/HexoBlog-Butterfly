@@ -1,5 +1,6 @@
 ---
 title: Git
+date: 2020-11-14 23:24:24
 cover: https://image.ql-isaac.cn/Git.gif
 description: 林纳斯·托瓦兹在 1991 年 10 月 5 日发布了开源的 Linux，从此，Linux 操作系统不断发展壮大，其实 Linux 的壮大离不开全世界热心的志愿者，他们在世界各地为 Linux 编写代码，那么，Linux 的代码是如何管理的呢？
 tags:
