@@ -1,7 +1,7 @@
 ---
 title: 我的 HexoBlog 的诞生（一）
 date: 2020-01-24 22:53:24
-cover: 
+cover: https://image.ql-isaac.cn/Working-rafiki.png
 description: 本文记录和讲解一下我的 HexoBlog 是如何一步一步被部署至 Github Pages 上的，可供大家参考。部署完成后可参考我的下一篇文章《我的 HexoBlog 的诞生（二）》进行个性化设置和配置，不过在此之前，需阅读 Hexo 官方文档，对 Hexo 有基本的完整的认识。
 tags:
  - Hexo v4.2.1
@@ -87,7 +87,7 @@ categories:
 
 16. 在终端输入`hexo g -d`，回车，进行博客的最终操作——生成静态文件后立即部署到 Github Pages 上（建议每次想把本地博客上传到 Gihub Pages 时，都使用该命令）。
 
-17. [大功告成](https://ql-isaac.github.io)（ql-isaac替换成自己的 Github 用户名）。
+17. [大功告成](https://ql-isaac.github.io)（将ql-isaac替换成自己的 Github 用户名）。
 
 
 ### 参考资料
