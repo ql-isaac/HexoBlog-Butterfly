@@ -13,7 +13,7 @@ description: Welcome to Hexo!This is your very first post.Check documentation fo
 $ hexo new "My New Post"
 ```
 
-More info: [Writing](https://hexo.io/docs/writing.html)
+　　More info: [Writing](https://hexo.io/docs/writing.html)
 
 ### Run server
 
@@ -21,7 +21,7 @@ More info: [Writing](https://hexo.io/docs/writing.html)
 $ hexo server
 ```
 
-More info: [Server](https://hexo.io/docs/server.html)
+　　More info: [Server](https://hexo.io/docs/server.html)
 
 ### Generate static files
 
@@ -29,7 +29,7 @@ More info: [Server](https://hexo.io/docs/server.html)
 $ hexo generate
 ```
 
-More info: [Generating](https://hexo.io/docs/generating.html)
+　　More info: [Generating](https://hexo.io/docs/generating.html)
 
 ### Deploy to remote sites
 
@@ -37,4 +37,4 @@ More info: [Generating](https://hexo.io/docs/generating.html)
 $ hexo deploy
 ```
 
-More info: [Deployment](https://hexo.io/docs/one-command-deployment.html)
+　　More info: [Deployment](https://hexo.io/docs/one-command-deployment.html)

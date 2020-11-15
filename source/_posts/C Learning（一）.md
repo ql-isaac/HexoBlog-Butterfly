@@ -231,7 +231,7 @@ categories: C 从入门到精通
 sudo apt-get install build-essential
 ```
 
-再输入以下命令回车，输入用户密码安装 Vim 文本编辑器。
+　　再输入以下命令回车，输入用户密码安装 Vim 文本编辑器。
 
 ```bash
 sudo apt-get install vim
@@ -306,7 +306,7 @@ ll
 
 ## 做点计算
 
-范例：做点计算（新建 compute.c）
+　　范例：做点计算（新建 compute.c）
 
 ```c /home/ql/桌面/C Learning/（一）/20200404/compute.c
 #include <stdio.h>
@@ -317,13 +317,13 @@ int main(){
 }
 ```
 
-打印结果：
+　　打印结果：
 
 ```
 12+34=46
 ```
 
-除了做加法，当然还能做其他运算：
+　　除了做加法，当然还能做其他运算：
 
 | 运算   | 运算符 |
 | ------ | ------ |
@@ -348,14 +348,14 @@ int main(){
 <类型名称> <变量名称>;
 ```
 
-范例：定义变量 price,存放价格的 int 型数据，定义变量 payment，存放支付金额的 int 型数据
+　　范例：定义变量 price,存放价格的 int 型数据，定义变量 payment，存放支付金额的 int 型数据
 
 ```c
 int price;
 int payment;
 ```
 
-或
+　　或
 
 ```c
 int price,payment; //可以在一行中定义多个同类型的变量，有逗号分隔
@@ -369,14 +369,14 @@ int price,payment; //可以在一行中定义多个同类型的变量，有逗�
 
 　　赋值也是一种运算，运算符为`=`，表示将右边的值复制一份赋给左边的变量，那么，这和数学中的等于号是一样的吗？当然不是，数学中的等于号表示的是相等的关系，C 语言也有表示相等关系的运算符，即`==`。
 
-范例：使用赋值运算符初始化变量
+　　范例：使用赋值运算符初始化变量
 
 ```
 int price=56;
 int payment=100;
 ```
 
-或
+　　或
 
 ```
 int price;
@@ -385,7 +385,7 @@ price=56;
 payment=100;
 ```
 
-或
+　　或
 
 ```
 int price=56,payment=100; 
@@ -393,7 +393,7 @@ int price=56,payment=100;
 
 ### 用 scanf() 函数初始化变量
 
-范例：定义 price 和 payment 并用 scanf() 函数初始化它们
+　　范例：定义 price 和 payment 并用 scanf() 函数初始化它们
 
 ```c
 int price,payment;
@@ -405,7 +405,7 @@ scanf("%d",&payment); //同上
 
 ### 变量的使用
 
-范例：找零（新建 change.c)
+　　范例：找零（新建 change.c)
 
 ```c /home/ql/桌面/C Learning/（一）/20200404/change.c
 #include <stdio.h>
@@ -423,13 +423,13 @@ int main(){
 }
 ```
 
-运行结果：
+　　运行结果：
 
 ![change.c](https://image.ql-isaac.cn/change.c.gif)
 
 ### 没有初始化变量的后果
 
-范例：没有初始化 payment（修改 change.c)
+　　范例：没有初始化 payment（修改 change.c)
 
 ```c /home/ql/桌面/C Learning/（一）/20200404/change.c
 #include <stdio.h>
@@ -445,7 +445,7 @@ int main(){
 }
 ```
 
-运行结果：
+　　运行结果：
 
 ![没有初始化变量](https://image.ql-isaac.cn/没有初始化变量.gif)
 
@@ -471,7 +471,7 @@ const <类型名称> <常量名称>; //const是一个修饰符，是constant（�
 
 　　在找零程序中，该商品，比如说一本书，它的价格就是 56 元，没必要总是输入 56，于是我们可以这么写：
 
-范例：使用常量（修改 change.c)
+　　范例：使用常量（修改 change.c)
 
 ```c /home/ql/桌面/C Learning/（一）/20200404/change.c
 #include <stdio.h>
@@ -489,7 +489,7 @@ int main(){
 
 　　如果我们尝试去修改 PRICE 会如何？来试一下：
 
-范例：尝试修改 PRICE（修改change.c)
+　　范例：尝试修改 PRICE（修改change.c)
 
 ```c /home/ql/桌面/C Learning/（一）/20200404/change.c
 #include <stdio.h>
@@ -507,7 +507,7 @@ int main(){
 }
 ```
 
-运行结果：
+　　运行结果：
 
 ![尝试修改PRICE](https://image.ql-isaac.cn/尝试修改PRICE.gif)
 
@@ -515,7 +515,7 @@ int main(){
 
 　　美国人习惯用几英尺几英寸的方式描述自己的身高，如果遇到一个美国人告诉你他的身高为 5 英尺 7 英寸，他的身高应该是一米几呢？由于 1 英尺 = 12 英寸 = 0.3048 米，所以 5 英尺 7 英寸应该为 (5+7/12)*0.3048 米，即 1.7018 米。来写个程序：
 
-范例：长度换算（新建 length_conversion.c)
+　　范例：长度换算（新建 length_conversion.c)
 
 ```c
 #include <stdio.h>
@@ -530,7 +530,7 @@ int main(){
 }
 ```
 
-运行结果：
+　　运行结果：
 
 ![长度换算](https://image.ql-isaac.cn/长度换算.gif)
 
@@ -538,7 +538,7 @@ int main(){
 
 　　那么，以上程序该如何改进呢？这里，又紧接着引入一个知识点：在 C 语言中不同数据类型的变量的运算，是先将所有变量统一转化为一种表示范围最大的数据类型。
 
-范例：长度换算（改）（修改 length_conversion.c)
+　　范例：长度换算（改）（修改 length_conversion.c)
 
 ```c
 #include <stdio.h>
@@ -553,7 +553,7 @@ int main(){
 }
 ```
 
-运行结果：
+　　运行结果：
 
 ![长度换算（改）](https://image.ql-isaac.cn/长度换算（改）.gif)
 
