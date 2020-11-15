@@ -197,11 +197,11 @@ categories: C 从入门到精通
 
    ![更换主题](https://image.ql-isaac.cn/更换主题.gif)
 
-14. 火狐浏览器进入 https://www.gnome-look.org/p/1305429/，下载 McMojave-circle 图标，等待，确定；
+14. [进入该网址](https://www.gnome-look.org/p/1305429/)，下载 McMojave-circle 图标，等待，确定；
 
    ![下载图标](https://image.ql-isaac.cn/下载图标.png)
 
-15. 同上，提取到下载中，点击显示文件，右键，在终端打开，输入以下命令回车，输入用户密码，将McMojave-circle目录移动到/usr/share/icons/下；
+15. 同上，提取到下载中，点击显示文件，右键，在终端打开，输入以下命令回车，输入用户密码，移动McMojave-circle 目录；
 
    ```bash
    sudo mv McMojave-circle/ /usr/share/icons/

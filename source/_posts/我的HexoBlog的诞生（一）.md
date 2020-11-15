@@ -34,11 +34,11 @@ categories:
    git config --global user.email "<我的Github邮箱>"
    ```
 
-5. 接着在终端输入 `ssh-keygen -t rsa`，按 3 个回车，此时打开 [.ssh 文件夹](C:\Users\<我的Windows用户名>\.ssh)，用文本编辑器打开 id_rsa.pub，Ctrl+A 复制里面全部的内容；
+5. 接着在终端输入`ssh-keygen -t rsa`，按 3 个回车，此时打开 [.ssh 文件夹](C:\\Users\\<我的Windows用户名>\\.ssh)，用文本编辑器打开 id_rsa.pub，Ctrl+A 复制里面全部的内容；
 
 6. 进入浏览器，进入 Gihub，点击右上角的头像，点击 Setting，点击左侧的 SSH and GPG keys，点击右侧的 New SSH key，填写 Tile，也可以不填，填写 Key，右键粘贴，粘贴刚复制的内容，最后点击 Add SSH key。
 
-7. 测试本地和 Github 的 SSH 配置是否正确，打开终端输入 `ssh -T git@github.com` 回车，输入 yes，回车，看到一句提示信息：Hi <我的 Github 用户名>! You've successfully authenticated, but GitHub does not provide shell access，配置成功。
+7. 测试本地和 Github 的 SSH 配置是否正确，打开终端输入`ssh -T git@github.com`回车，输入 yes，回车，看到一句提示信息：Hi <我的 Github 用户名>! You've successfully authenticated, but GitHub does not provide shell access，配置成功。
 
 ### 安装 Hexo
 
@@ -58,13 +58,13 @@ categories:
    cnpm install -g hexo-cli
    ```
 
-12. 在终端输入 `hexo init`，等待，可在<存储 HexoBlog 的文件夹>中看到生成了如下图所示的文件。
+12. 在终端输入`hexo init`，等待，可在<存储 HexoBlog 的文件夹>中看到生成了如下图所示的文件。
 
     ![初始文件](https://image.ql-isaac.cn/初始文件.png)
 
 ### 本地部署我的 HexoBlog
 
-13. 在终端输入 `hexo s`，打开浏览器，输入 localhost:4000，可看到本地部署的我的 HexoBlog，如下图所示，Ctrl+C 停止运行；
+13. 在终端输入`hexo s`，打开浏览器，输入 localhost:4000，可看到本地部署的我的 HexoBlog，如下图所示，Ctrl+C 停止运行；
 
     ![本地部署的我的HexoBlog](https://image.ql-isaac.cn/本地部署的我的HexoBlog.png)
 
@@ -85,9 +85,9 @@ categories:
      branch: master
    ```
 
-16. 在终端输入 `hexo g -d`，回车，进行博客的最终操作——生成静态文件后立即部署到 Github Pages 上（建议每次想把本地博客上传到 Gihub Pages 时，都使用该命令）。
+16. 在终端输入`hexo g -d`，回车，进行博客的最终操作——生成静态文件后立即部署到 Github Pages 上（建议每次想把本地博客上传到 Gihub Pages 时，都使用该命令）。
 
-17. [大功告成](https://<我的 Github 用户名>.github.io)。
+17. [大功告成](https://ql-isaac.github.io)（ql-isaac替换成自己的 Github 用户名）。
 
 
 ### 参考资料
