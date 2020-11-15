@@ -5,7 +5,7 @@ description: 林纳斯·托瓦兹在 1991 年 10 月 5 日发布了开源的 Lin
 tags:
  - Git v2.25.0.windows.1
  - Git v2.17.1
- - Windows 10 专业版
+ - Windows 10
  - Ubuntu 18.04 LTS
 categories: Git 和 GitHub 从入门到实践
 ---
