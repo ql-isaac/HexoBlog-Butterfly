@@ -263,7 +263,7 @@ vim hello_world.c
 
 　　按下i键进入插入模式，国际惯例，编写第一个程序：打印”Hello,World!”：
 
-```c  /home/ql/桌面/C Learning/（一）/20200404/hello_world.c
+```c
 #include <stdio.h>
 int main(){
     printf("Hello,World!\n"); //print是打印的意思，f是format的简写，printf()函数的功能就是格式化输出
@@ -309,7 +309,7 @@ ll
 
 　　范例：做点计算（新建 compute.c）
 
-```c /home/ql/桌面/C Learning/（一）/20200404/compute.c
+```c
 #include <stdio.h>
 
 int main(){
@@ -408,7 +408,7 @@ scanf("%d",&payment); //同上
 
 　　范例：找零（新建 change.c)
 
-```c /home/ql/桌面/C Learning/（一）/20200404/change.c
+```c
 #include <stdio.h>
 
 int main(){
@@ -432,7 +432,7 @@ int main(){
 
 　　范例：没有初始化 payment（修改 change.c)
 
-```c /home/ql/桌面/C Learning/（一）/20200404/change.c
+```c
 #include <stdio.h>
 
 int main(){
@@ -474,7 +474,7 @@ const <类型名称> <常量名称>; //const是一个修饰符，是constant（�
 
 　　范例：使用常量（修改 change.c)
 
-```c /home/ql/桌面/C Learning/（一）/20200404/change.c
+```c
 #include <stdio.h>
 
 int main(){
@@ -492,7 +492,7 @@ int main(){
 
 　　范例：尝试修改 PRICE（修改change.c)
 
-```c /home/ql/桌面/C Learning/（一）/20200404/change.c
+```c
 #include <stdio.h>
 
 int main(){
