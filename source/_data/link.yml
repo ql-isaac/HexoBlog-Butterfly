@@ -17,6 +17,20 @@
       link: https://blog.zhheo.com/
       avatar: https://blog.zhheo.com/img/avatar.png
       descr: 爱折腾的设计师
+    - name: Alex
+      link: https://alexcld.com
+      avatar: https://alexcld.com/img/author.jpg
+      descr: "children don't lie"
+    - name: xwcker
+      link: https://www.hack-gov.com.cn/
+      avatar: https://www.hack-gov.com.cn/img/friend_404.gif
+      descr: 海客GO - 爱牟 听着海客的瀛谈
+      width: 1px
+      color: "#881B12"
+    - name: 小冰博客
+      link: https://zfe.one
+      avatar: https://zfe.space/images/headimage.png
+      descr: 做个有梦想的人！
 
 
 - class_name: 网站
