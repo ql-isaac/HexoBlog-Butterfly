@@ -8,5 +8,5 @@ tags:
  - Markdown
  - Windows 10
 categories:
- - 我的 HexoBlog 的诞生
+ - 我的HexoBlog的诞生
 ---
