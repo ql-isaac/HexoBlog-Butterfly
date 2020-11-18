@@ -25,7 +25,7 @@ post:
   updated: 更新于
   wordcount: 字数总计
   min2read: 阅读时长
-  min2read_unit: 分钟
+  min2read_unit: min
   page_pv: 阅读量
   comments: 评论数
   copyright:
