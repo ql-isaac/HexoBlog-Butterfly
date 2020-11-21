@@ -222,7 +222,7 @@ categories: C 从入门到精通
 
 20. 最后，在优化->窗口中，设置标题栏按钮在左边，右键桌面更换个壁纸，至此，美化算是告一段落了。
 
-   {% dplayer "https://image.ql-isaac.cn/%E7%BE%8E%E5%8C%96.mp4" %}
+   {% dplayer "url=https://image.ql-isaac.cn/%E7%BE%8E%E5%8C%96.mp4" %}
 
 ### 安装build-essential软件包和Vim文本编辑器
 
