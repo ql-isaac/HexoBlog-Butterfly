@@ -39,7 +39,7 @@ git clone https://github.com/theme-next/hexo-theme-next themes/next
 
 ### 开启每篇文章的资源文件夹
 
-　　打开Hexo的配置文件，关键字post_asset_folder查找，将post_asset_folder的值改为true。每次新生成layout（layout默认有 post、page 和 draft三种 ）时都会在对应生成的Markdown文件同级目录下生成一个对应的资源文件夹，将图片、音乐或视频存入该文件夹，这样，想插入图片、音乐或视频时直接填写图片、音乐或视频的完整文件名即可。
+　　打开Hexo的配置文件，关键字post_asset_folder查找，将post_asset_folder的值改为true。每次新生成layout（layout默认有 post、page 和 draft三种 ）时都会在对应生成的Markdown文件同级目录下生成一个对应的资源文件夹，可将图片、音乐或视频存入该文件夹，这样，想插入图片、音乐或视频时直接填写图片、音乐或视频的完整文件名即可。
 
 ### 在文章内插入视频
 
@@ -88,13 +88,13 @@ search:
 
 　　开启本地搜索功能：打开NexT的配置文件，关键字local_search查找，设置enable为true即可。具体操作如下视频：
 
-{% dplayer "url=增加本地搜索功能.mp4" %}
+{% dplayer "url=https://image.ql-isaac.cn/%E5%A2%9E%E5%8A%A0%E6%9C%AC%E5%9C%B0%E6%90%9C%E7%B4%A2%E5%8A%9F%E8%83%BD.mp4" %}
 
 ## NexT的个性化设置与配置
 
 ### 添加菜单项并创建相应页面
 
-　　在<存储HexoBlog的文件夹>\themes\next中也有一个_config.yml，此为NexT的配置文件，打开它，关键字menu查找，默认有home（首页）项和archives（归档）项，我的博客添加了tags（标签）和categories（分类），只需将前面的#去掉即可，如下图。
+　　在<存储HexoBlog的文件夹>下themes下next中也有一个_config.yml，此为NexT的配置文件，打开它，关键字menu查找，默认有home（首页）项和archives（归档）项，要想添加tags（标签）项和categories（分类）项，只需将前面的#去掉即可，如下图。
 
 ![选择菜单项](https://image.ql-isaac.cn/选择菜单项.png)
 
@@ -110,7 +110,7 @@ hexo new page tags
 hexo new page categories
 ```
 
-　　编辑<存储HexoBlog的文件夹>\scaffold下的post.md，在下一行增加tags:，再在下一行增加categories:，该文件 为模板文件，它定义了每新生成的一篇文章的Markdown文件（输入`hexo new post[自定义md文件名]`可创建一篇文章）的初始样子，我们在编辑新生成的Markdown文件时，只需自定义tags和categories的值，该文章就会在标签页面和分类页面被标记和分类起来。
+　　编辑<存储HexoBlog的文件夹>下scaffold下的post.md，在下一行增加tags:，再在下一行增加categories:，该文件 为模板文件，它定义了每新生成的一篇文章的Markdown文件（输入`hexo new post[自定义md文件名]`可创建一篇文章）的初始样子，我们在编辑新生成的Markdown文件时，只需自定义tags和categories的值，该文章就会在标签页面和分类页面被标记和分类起来。
 
 ### 选择主题风格
 
@@ -120,7 +120,11 @@ hexo new page categories
 
 ### 头像
 
-　　选择一张图片，放在[存储HexoBlog的文件夹]\themes\next\source\images下，打开NexT的配置文件，关键字avatar查找，配置url为/images/[完整的图片名]，rounded和rotated设为true，如下图。
+　　选择一张图片，放在[存储HexoBlog的文件夹]下themes下next下source下images下，打开NexT的配置文件，关键字avatar查找，按下图配置，效果图如下。
+
+
+
+![avatar](https://image.ql-isaac.cn/avatar.png)
 
 ![作者头像](https://image.ql-isaac.cn/作者头像.png)
 
@@ -134,17 +138,17 @@ hexo new page categories
 
 　　打开NexT的配置文件，关键字links查找，添加友情链接。具体操作如下视频：
 
-{% dplayer "url=添加友情链接.mp4" %}
+{% dplayer "url=https://image.ql-isaac.cn/%E6%B7%BB%E5%8A%A0%E5%8F%8B%E6%83%85%E9%93%BE%E6%8E%A5.mp4" %}
 
 ### 下载并开启fancybox功能（查看图片功能）
 
-　　进入<存储HexoBlog的文件夹>\themes\next\source\lib下，右键，选择Git Bash Here进入终端，输入如下命令下载fancybox，再打开NexT的配置文件，关键字fancybox查找，开启fancybox功能。具体操作如下视频：
+　　进入<存储HexoBlog的文件夹>下themes下next下source下lib下，右键，选择Git Bash Here进入终端，输入如下命令下载fancybox，再打开NexT的配置文件，关键字fancybox查找，开启fancybox功能。具体操作如下视频：
 
 ```
 git clone https://github.com/theme-next/theme-next-fancybox3 fancybox
 ```
 
-{% dplayer "url=开启fancybox功能.mp4" %}
+{% dplayer "url=https://image.ql-isaac.cn/%E5%BC%80%E5%90%AFfancybox%E5%8A%9F%E8%83%BD.mp4" %}
 
 ### 添加联系方式
 
@@ -194,7 +198,7 @@ douban:
   timeout: 10000
 ```
 
-　　可以测试一下，`hexo s`，地址栏输入 http://localhost:4000/books ，确认是否访问正常。
+　　可以测试一下，`hexo s`，[本地访问](http://localhost:4000/books) ，确认是否访问正常。
 
 　　添加图书、电影和游戏的菜单项，打开NexT的配置文件，关键字menu查找，添加books项、movies项和games项，如下。
 
@@ -215,6 +219,6 @@ douban:
 
 ![添加豆瓣页面菜单项](https://image.ql-isaac.cn/添加豆瓣页面菜单项.png)
 
-　　在<存储HexoBlog的文件夹>\themes\next\languages下找到zh-CN.yml，menu处，添加books项、movies项和games项对应的翻译，如下图。
+　　在<存储HexoBlog的文件夹>下themes下next下languages下找到zh-CN.yml，menu处，添加books项、movies项和games项对应的翻译，如下图。
 
 ![添加豆瓣页面菜单项简体中文翻译](https://image.ql-isaac.cn/添加豆瓣页面菜单项简体中文翻译.png)
