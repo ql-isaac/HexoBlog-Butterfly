@@ -150,77 +150,77 @@ categories: C 从入门到精通
 
    ![错误](https://image.ql-isaac.cn/错误.png)
 
-3. 分别点击两个GNOME Shell扩展User Themes和Dash to Dock，将它们都开启（即安装）；
+4. 分别点击两个GNOME Shell扩展User Themes和Dash to Dock，将它们都开启（即安装）；
 
    ![两个扩展](https://image.ql-isaac.cn/两个扩展.png)
 
-4. 在安装完Dash to Dock时，你会发现侧边栏消失了，相信这是大多数人想要的效果；
+5. 在安装完Dash to Dock时，你会发现侧边栏消失了，相信这是大多数人想要的效果；
 
    ![侧边栏消失了](https://image.ql-isaac.cn/侧边栏消失了.png)
 
-5. 打开优化；
+6. 打开优化；
 
    ![优化](https://image.ql-isaac.cn/优化.png)
 
-6. 打开Dash to Dock的设置；
+7. 打开Dash to Dock的设置；
 
    ![DashtoDock设置](https://image.ql-isaac.cn/DashtoDock设置.png)
 
-7. 打开智能隐藏的设置
+8. 打开智能隐藏的设置
 
    ![智能隐藏的设置](https://image.ql-isaac.cn/智能隐藏的设置.png)
 
-8. 勾选在全屏状态下启用，不勾选推压以显示......，调整显示超时时间为0.2秒，关闭窗口，此时，再打开火狐浏览器，当把鼠标移动到左侧，侧边栏自动显示，移走鼠标，侧边栏自动隐藏，相信这同样是大多数人想要的效果；
+9. 勾选在全屏状态下启用，不勾选推压以显示......，调整显示超时时间为0.2秒，关闭窗口，此时，再打开火狐浏览器，当把鼠标移动到左侧，侧边栏自动显示，移走鼠标，侧边栏自动隐藏，相信这同样是大多数人想要的效果；
 
    ![设置和调整](https://image.ql-isaac.cn/设置和调整.png)
 
    ![智能隐藏](https://image.ql-isaac.cn/智能隐藏.gif)
 
-9. 打开火狐浏览器，进入[该网址](https://www.gnome-look.org/p/1275087/)下载McMojave主题，等待，确定；
+10. 打开火狐浏览器，进入[该网址](https://www.gnome-look.org/p/1275087/)下载McMojave主题，等待，确定；
 
    ![下载主题](https://image.ql-isaac.cn/下载主题.png)
 
-10. 提取到下载中，点击显示文件；
+11. 提取到下载中，点击显示文件；
 
    ![提取](https://image.ql-isaac.cn/提取.png)
 
-11. 右键，在终端打开；
+12. 右键，在终端打开；
 
    ![右键](https://image.ql-isaac.cn/右键.png)
 
-12. 输入以下命令回车，输入用户密码，移动Mojave-light目录；
+13. 输入以下命令回车，输入用户密码，移动Mojave-light目录；
 
    ```bash
    sudo mv Mojave-light/ /usr/share/themes/
    ```
 
-13. 打开优化，选择Mojave-light主题，就能看到效果了；
+14. 打开优化，选择Mojave-light主题，就能看到效果了；
 
    ![更换主题](https://image.ql-isaac.cn/更换主题.gif)
 
-14. [进入该网址](https://www.gnome-look.org/p/1305429/)，下载McMojave-circle图标，等待，确定；
+15. [进入该网址](https://www.gnome-look.org/p/1305429/)，下载McMojave-circle图标，等待，确定；
 
    ![下载图标](https://image.ql-isaac.cn/下载图标.png)
 
-15. 同上，提取到下载中，点击显示文件，右键，在终端打开，输入以下命令回车，输入用户密码，移动McMojave-circle 目录；
+16. 同上，提取到下载中，点击显示文件，右键，在终端打开，输入以下命令回车，输入用户密码，移动McMojave-circle 目录；
 
    ```bash
    sudo mv McMojave-circle/ /usr/share/icons/
    ```
 
-16. 打开优化，选择McMojave-circle图标，就能看到效果了；
+17. 打开优化，选择McMojave-circle图标，就能看到效果了；
 
    ![更换图标](https://image.ql-isaac.cn/更换图标.gif)
 
-17. 有一个地方忘记了，打开优化，选择shell为Mojave-light；
+18. 有一个地方忘记了，打开优化，选择shell为Mojave-light；
 
    ![更换shell](https://image.ql-isaac.cn/更换shell.gif)
 
-18. 可以在Dash to Dock设置中设置侧边栏的位置在底部；
+19. 可以在Dash to Dock设置中设置侧边栏的位置在底部；
 
    ![设置在底部](https://image.ql-isaac.cn/设置在底部.png)
 
-19. 最后，在优化->窗口中，设置标题栏按钮在左边，右键桌面更换个壁纸，至此，美化算是告一段落了。
+20. 最后，在优化->窗口中，设置标题栏按钮在左边，右键桌面更换个壁纸，至此，美化算是告一段落了。
 
    {% dplayer "https://image.ql-isaac.cn/%E7%BE%8E%E5%8C%96.mp4" %}
 
