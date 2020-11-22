@@ -10,3 +10,49 @@ tags:
 categories:
  - 我的 HexoBlog 的诞生
 ---
+
+　　本文记录和讲解我的HexoBlog的使用，会持续更新。
+
+## 使用Typora编辑Markdown文件，书写博客文章
+
+　　通过执行`hexo new post <自定义md文件名>`，相应Markdown文件将在_posts下生成，那么该如何编辑这种Markdown文件，书写自己的博客文章呢？
+
+### Markdown
+
+　　Markdown是一种轻量级的标记语言，类似于HTML，但Markdown的语法十分简单，常用的标记符号也不超过十个。
+
+### Typora
+
+　　Typora是一个Markdown文件阅读器与编辑器，支持MacOS、Windows、Linux平台，可到[Typora 官网](https://typora.io/)下载。
+
+### 标题
+
+　　使用`#`可表示1-6级标题。一级标题对应一个#，二级标题对应两个# ，以此类推，如下视频（注意#后面有一个空格）。
+
+```markdown
+# 一级标题
+## 二级标题
+### 三级标题
+#### 四级标题
+```
+
+{% dplayer "url=https://image.ql-isaac.cn/%E6%A0%87%E9%A2%98.mp4" %}
+
+### 列表
+
+　　经常用的是有序列表和无序列表。使用`<序号>. `（`.`后面有一个空格）可表示有序列表，回车自动生成下一项，如下图。
+
+![有序列表](https://image.ql-isaac.cn/有序列表.gif)
+
+　　使用`- `（`-`后面有空格）可表示无序列表，回车自动生成下一项，如下图。
+
+![无序列表](https://image.ql-isaac.cn/无序列表.gif)
+
+　　还有一个任务列表，使用`- [ ] `（`[ ]`后面有空格）可表示任务列表，回车自动生成下一项，如下图。
+
+![任务列表](https://image.ql-isaac.cn/任务列表.gif)
+
+## 部署在Github Pages上太慢了！
+
+
+
