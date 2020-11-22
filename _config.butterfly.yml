@@ -118,7 +118,7 @@ douban:
   meta: true
   movies_img: https://image.ql-isaac.cn/theater.jpg
   books_img: https://image.ql-isaac.cn/%E9%98%85%E8%AF%BB.jpg
-  games_img: https://image.ql-isaac.cn/巫师3.jpg
+  games_img: https://image.ql-isaac.cn/巫师3.png
 
 cover:
   # display the cover or not (是否顯示文章封面)
