@@ -6,7 +6,6 @@ description: 任何比C语言更低级的语言，都不足以完整地抽象一
 tags:
  - Ubuntu 18.04 LTS
  - VMware pro 15
- - CLion
 categories: C 从入门到精通
 ---
 
