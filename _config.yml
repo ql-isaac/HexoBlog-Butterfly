@@ -114,21 +114,21 @@ douban:
   user: 214534818
   builtin: true
   book:
-    title: book
+    title: It's a beautiful day!
     quote: It's a beautiful day!
     meta: true
     comments: true
     top_img: https://image.ql-isaac.cn/%E9%98%85%E8%AF%BB.jpg
     aside: true
   movie:
-    title: movie
+    title: It's a beautiful day!
     quote: It's a beautiful day!
     meta: true
     comments: true
     top_img: https://image.ql-isaac.cn/theater.jpg
     aside: true
   game:
-    title: game
+    title: It's a beautiful day!
     quote: It's a beautiful day!
     meta: true
     comments: true
