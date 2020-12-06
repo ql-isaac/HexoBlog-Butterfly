@@ -110,7 +110,7 @@ deploy:
 aplayer:
   asset_inject: false
 
-  douban:
+douban:
   user: 214534818
   builtin: true
   book:
