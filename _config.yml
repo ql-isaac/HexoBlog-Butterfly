@@ -134,7 +134,7 @@ douban:
     comments: true
     top_img: https://image.ql-isaac.cn/巫师3.png
     aside: true
-  timeout: 10000 
+  timeout: 10000
 
 hexo-tag-dplayer:
   cdn:
