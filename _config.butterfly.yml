@@ -830,7 +830,7 @@ inject:
   head:
     # - <link rel="stylesheet" href="/xxx.css">
   bottom:
-    # - <script src="xxxx"></script>
+  - <script src="https://myhkw.cn/player/js/player.js" id="myhk" key="16072695802" m="1"></script>
 
 # CDN
 # Don't modify the following settings unless you know how they work
