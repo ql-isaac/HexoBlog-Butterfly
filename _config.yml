@@ -110,19 +110,31 @@ deploy:
 aplayer:
   asset_inject: false
 
-douban:
+  douban:
   user: 214534818
   builtin: true
   book:
-    title:
-    quote:
+    title: 'book'
+    quote: 'It's a beautiful day!'
+    meta: true
+    comments: true
+    top_img: https://image.ql-isaac.cn/%E9%98%85%E8%AF%BB.jpg
+    aside: true
   movie:
-    title:
-    quote:
+    title: 'movie'
+    quote: 'It's a beautiful day!'
+    meta: true
+    comments: true
+    top_img: https://image.ql-isaac.cn/theater.jpg
+    aside: true
   game:
-    title:
-    quote:
-  timeout: 100000
+    title: 'game'
+    quote: 'It's a beautiful day!'
+    meta: true
+    comments: true
+    top_img: https://image.ql-isaac.cn/巫师3.png
+    aside: true
+  timeout: 10000 
 
 hexo-tag-dplayer:
   cdn:
