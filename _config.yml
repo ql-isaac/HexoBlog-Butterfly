@@ -114,22 +114,22 @@ douban:
   user: 214534818
   builtin: true
   book:
-    title: 'This is my book title'
-    quote: 'This is my book quote'
+    title: 'book'
+    quote: 'It's a beautiful day!'
     meta: true
     comments: true
     top_img: https://image.ql-isaac.cn/%E9%98%85%E8%AF%BB.jpg
     aside: true
   movie:
-    title: 'This is my movie title'
-    quote: 'This is my movie quote'
+    title: 'movie'
+    quote: 'It's a beautiful day!'
     meta: true
     comments: true
     top_img: https://image.ql-isaac.cn/theater.jpg
     aside: true
   game:
-    title: 'This is my game title'
-    quote: 'This is my game quote'
+    title: 'game'
+    quote: 'It's a beautiful day!'
     meta: true
     comments: true
     top_img: https://image.ql-isaac.cn/巫师3.png
