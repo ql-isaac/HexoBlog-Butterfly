@@ -829,7 +829,8 @@ fragment_cache: true
 inject:
   head:
     # - <link rel="stylesheet" href="/xxx.css">
-  - <link href="https://fonts.loli.net/css2?family=Noto+Serif+SC&display=swap" rel="stylesheet">
+  - <link rel="preconnect" href="https://fonts.gstatic.com">
+  - <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+SC&display=swap" rel="stylesheet">
   bottom:
   - <script src="https://myhkw.cn/player/js/player.js" id="myhk" key="16072695802" m="1"></script>
 
