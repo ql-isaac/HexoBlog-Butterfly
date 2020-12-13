@@ -41,8 +41,19 @@
     - name: 泰戈尔
       link: https://www.iftiger.com
       avatar: https://ittiger.top/%E5%A4%B4%E5%83%8F.jpg
-      descr: 学海无涯，永无止境。
-
+      descr: 学海无涯，永无止境
+    - name: 沉默的小嘉
+      link: https://blog.imzjw.cn/
+      avatar: https://cdn.jsdelivr.net/gh/zjwo/CDN@master/img/blog/avatar.jpg
+      descr: 好记性不如烂笔头
+    - name: 小康博客
+      link: https://www.antmoe.com/
+      avatar: https://cdn.jsdelivr.net/gh/sviptzk/HexoStaticFile@latest/avatar.jpg
+      descr: 一个收藏回忆与分享技术的地方！
+    - name: Lete乐特
+      link: https://www.lete114.top/
+      avatar: https://www.lete114.top/img/avatar.png
+      descr: 人生只有一次，大胆的生活！！
 
 - class_name: 网站
   class_desc: 值得推荐的网站
