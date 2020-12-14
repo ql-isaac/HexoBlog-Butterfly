@@ -43,7 +43,7 @@ categories: Python 从入门到实践
 
 　　虽然Python拥有交互式环境，但是无论如何，程序是需要定义在源文件之中的，Python源文件的后缀为py。
 
-　　新建一个学习文件夹D:\Python Learning\\（一），打开Visual Studio Code，打开文件夹，如下图，选择学习文件夹，新建文件夹，命名为20200203（以当天的年月日命名），在该文件夹下新建文件，命名为hello_world.py，文件中输入以下一行代码，Ctrl+S保存。
+　　新建一个学习文件夹，打开Visual Studio Code，打开文件夹，如下图，选择学习文件夹打开，再新建文件夹，命名为20200203（以当天的年月日命名），在该文件夹下新建文件，命名为hello_world.py，文件中输入以下一行代码，Ctrl+S保存。
 
 ```python D:\Python Learning\（一）\20200203\hello_world.py
 print("Hello,world!")
@@ -64,7 +64,7 @@ print("Hello,world!")
 
 　　Python 中的变量不需要声明，每个变量在使用前都必须赋值，变量赋值以后该变量才会被创建。
 
-范例：使用变量（修改文件hello_world.py）
+　　范例：使用变量（修改文件hello_world.py）
 
 ```python D:\Python Learning\（一）\20200203\hello_world.py
 message = "Hello,world!"
@@ -73,7 +73,7 @@ message = "Hello,ql!"
 print(message)
 ```
 
-打印结果：
+　　打印结果：
 
 ```
 Hello,world!
@@ -82,7 +82,7 @@ Hello,ql!
 
 　　可以同时为多个变量赋值。
 
-范例：为多个变量赋值（修改文件hello_world.py）
+　　范例：为多个变量赋值（修改文件hello_world.py）
 
 ```python D:\Python Learning\（一）\20200203\hello_world.py
 message1, message2 = "Hello,world!", "Hello,ql!"
@@ -90,7 +90,7 @@ print(message1)
 print(message2)
 ```
 
-打印结果：
+　　打印结果：
 
 ```
 Hello,world!
@@ -99,14 +99,14 @@ Hello,ql!
 
 　　值得说明的是，如果我们比较熟悉面向对象的编程的话，Python语言里面所有的变量严格意义上来讲应该被称为“对象”；
 
-范例：定义变量但是不设置内容(新建文件None.py)
+　　范例：定义变量但是不设置内容(新建文件None.py)
 
 ```python D:\Python Learning\（一）\20200203\None.py
 message = None # 空引用
 print(message)
 ```
 
-打印结果：
+　　打印结果：
 
 ```
 None
@@ -114,13 +114,13 @@ None
 
 　　很多编程语言都会使用`;`作为每行程序的完结符，然而`;`在Python中被设计为可选符号，如果希望在一行定义多个变量，可用`;`。
 
-范例：使用`;`对一行中的多个变量进行区分（新建文件hello_ql.py)
+　　范例：使用`;`对一行中的多个变量进行区分（新建文件hello_ql.py)
 
 ```python D:\Python Learning\（一）\20200203\hello_ql.py
 message = "Hello,world" ;print(message) ;message = "Hello,ql!" ;print(message)
 ```
 
-打印结果：
+　　打印结果：
 
 ```
 Hello,world!
@@ -139,24 +139,24 @@ Hello,ql!
 
 　　在Python之中常用的数据类型包括：整数、浮点数、复数、布尔、字符串、列表、元组、字典和日期。
 
-范例：通过type()函数查看数据类型(新建文件type.py)
+　　范例：通过type()函数查看数据类型(新建文件type.py)
 
 ```python D:\Python Learning\（一）\20200204\type.py
 message = "Hello,world!"
 print(type(message))
 ```
 
-打印结果：
+　　打印结果：
 
 ```
 <class 'str'>
 ```
 
-"<class 'str'>"表示message变量为字符串类型。
+　　"<class 'str'>"表示message变量为字符串类型。
 
 ### 整数和浮点数
 
-范例：两个整数相除（新建文件num.py)
+　　范例：两个整数相除（新建文件num.py)
 
 ```python D:\Python Learning\（一）\20200204\num.py
 num_a = 10
@@ -164,13 +164,13 @@ num_b = 4
 print(num_a/num_b)
 ```
 
-打印结果：
+　　打印结果：
 
 ```python
 2.5
 ```
 
-范例：获取数据类型（修改文件num.py)
+　　范例：获取数据类型（修改文件num.py)
 
 ```python D:\Python Learning\（一）\20200204\num.py
 num_a = 10
@@ -181,7 +181,7 @@ print(type(num_b))
 print(type(num_a/num_b))
 ```
 
-打印结果：
+　　打印结果：
 
 ```
 <class 'int'>
@@ -193,20 +193,20 @@ print(type(num_a/num_b))
 
 　　复数数据类型不能直接使用，需要通过complex()函数。
 
-范例：使用复数（一）（新建文件complex.py)
+　　范例：使用复数（一）（新建文件complex.py)
 
 ```python D:\Python Learning\（一）\20200204\complex.py
 num = complex(10,2) # 实部为10，虚部为2
 print(num)
 ```
 
-打印结果：
+　　打印结果：
 
 ```
 (10+2j)
 ```
 
-范例：使用复数（二）（修改文件complex.py）
+　　范例：使用复数（二）（修改文件complex.py）
 
 ```python D:\Python Learning\（一）\20200204\complex.py
 num = complex(10,2) # 实部为10，虚部为2
@@ -216,7 +216,7 @@ print(num.imag) # 获取虚部
 print(num.conjugate()) # 获取共轭复数
 ```
 
-打印结果：
+　　打印结果：
 
 ```
 (10+2j)
@@ -229,7 +229,7 @@ print(num.conjugate()) # 获取共轭复数
 
 　　“布尔”是19世纪一位英国数学家的名字，Python中布尔的取值：`True`和`False`。
 
-范例：使用布尔（一）（新建文件boolean.py)
+　　范例：使用布尔（一）（新建文件boolean.py)
 
 ```python D:\Python Learning\（一）\20200204\boolean.py
 flag = True # Python中的True是首字母大写的
@@ -237,7 +237,7 @@ if flag: # 分支语句
         print("Hello,world!")
 ```
 
-打印结果：
+　　打印结果：
 
 ```
 Hello,world!
@@ -245,7 +245,7 @@ Hello,world!
 
 　　Python是通过C语言开发的，Python继承了布尔型值为0表示假，为非0表示真的特性。
 
-范例：使用布尔（二）（修改文件boolean.py)
+　　范例：使用布尔（二）（修改文件boolean.py)
 
 ```python D:\Python Learning\（一）\20200204\boolean.py
 flag = 1 # 非0
@@ -253,7 +253,7 @@ if flag: # 分支语句
         print("Hello,world!")
 ```
 
-打印结果：
+　　打印结果：
 
 ```
 Hello,world!
@@ -263,7 +263,7 @@ Hello,world!
 
 　　字符串是一个开发中最为重要的的概念，Python中直接使用单引号`''`或双引号`""`进行字符串的定义，使用哪一种引号定义字符串都是一样的，但需统一，不同的引号可以嵌套。
 
-范例：引号嵌套（新建文件quotation_mark.py)
+　　范例：引号嵌套（新建文件quotation_mark.py)
 
 ```python D:\Python Learning\（一）\20200205\quotation_mark.py
 message = '"Hello,world!"' # 使用单引号定义字符串
@@ -272,7 +272,7 @@ message = "'Hello,ql!'" # 使用双引号定义字符串
 print(message)
 ```
 
-打印结果：
+　　打印结果：
 
 ```
 "Hello,world!"
@@ -281,14 +281,14 @@ print(message)
 
 　　可使用`+`进行字符串的拼接操作。
 
-范例：字符串的拼接（新建文件string.py)
+　　范例：字符串的拼接（新建文件string.py)
 
 ```python D:\Python Learning\（一）\20200205\string.py
 message = "Hello,world!,"+"Hello,ql!"
 print(message)
 ```
 
-打印结果：
+　　打印结果：
 
 ```
 Hello,world!,Hello,ql!
@@ -306,13 +306,13 @@ Hello,world!,Hello,ql!
 |  \b  |            退格            | \oyy | 八进制字符，如“\o12:”为换行 |
 |  \e  |            转义            | \xyy | 十进制字符，如“\x0a”为换行  |
 
-范例：使用转义字符串（新建文件escape.py)
+　　范例：使用转义字符串（新建文件escape.py)
 
 ```Python D:\Python Learning\（一）\20200205\escape.py
 message = "Python:\"Hello,world!\"\n\tPython:\"Hello,ql!\""
 ```
 
-打印结果：
+　　打印结果：
 
 ```
 Python:"Hello,world!"
@@ -323,14 +323,14 @@ Python:"Hello,world!"
 
 　　利用函数input()，Python可以接受通过键盘输入的字符串类型的数据
 
-范例：通过键盘输入数据（新建文件input.py）
+　　范例：通过键盘输入数据（新建文件input.py）
 
 ```python
 input_data = input("你的名字：") # 给出提示字符串
 print("Python:Hello,"+input_data+"!")
 ```
 
-打印结果：
+　　打印结果：
 
 ```
 你的名字：ql
@@ -341,7 +341,7 @@ print("Python:Hello,"+input_data+"!")
 Python:Hello,ql!
 ```
 
-范例：获取输入类型（修改文件input.py）
+　　范例：获取输入类型（修改文件input.py）
 
 ```python
 input_data = input("你的名字：") # 给出提示字符串
@@ -349,7 +349,7 @@ print("Python:Hello,"+input_data+"!")
 print(type(input_data))
 ```
 
-打印结果：
+　　打印结果：
 
 ```
 你的名字：ql
@@ -370,7 +370,7 @@ Python:Hello,ql!
 | bool（数据）  |  将指定数据转为布尔型数据  |
 |  str（数据）  | 将指定数据转为字符串型数据 |
 
-范例：int()函数（一）（新建文件int.py)
+　　范例：int()函数（一）（新建文件int.py)
 
 ```python
 str = "155"
@@ -379,7 +379,7 @@ print(temp)
 print(type(temp))
 ```
 
-打印结果：
+　　打印结果：
 
 ```
 155
@@ -388,7 +388,7 @@ print(type(temp))
 
 　　如果字符串不是由规定字符组成，int.py就会产生异常。
 
-范例：字符串不是由规定字符组成（修改文件int.py）
+　　范例：字符串不是由规定字符组成（修改文件int.py）
 
 ```python
 str = "2BC9"
@@ -397,7 +397,7 @@ print(temp)
 print(type(temp))
 ```
 
-打印结果：
+　　打印结果：
 
 ```
 Traceback (most recent call last):
@@ -406,7 +406,7 @@ Traceback (most recent call last):
 ValueError: invalid literal for int() with base 10: '2BC9'
 ```
 
-范例：int()函数（二）（修改文件int.py)
+　　范例：int()函数（二）（修改文件int.py)
 
 ```python
 str = "199"
@@ -417,14 +417,14 @@ print(result)
 print(type(result))
 ```
 
-打印结果：
+　　打印结果：
 
 ```
 399
 <class 'int'>
 ```
 
-范例：int()函数（三）（修改文件int.py)
+　　范例：int()函数（三）（修改文件int.py)
 
 ```python
 num_a = int(input("请输入第一个整数："))
@@ -433,7 +433,7 @@ result = num_a + num_b
 print(num_a+"+"+num_b+"="+result)
 ```
 
-打印结果：
+　　打印结果：
 
 ```
 请输入第一个整数：12
@@ -454,7 +454,7 @@ TypeError: unsupported operand type(s) for +: 'int' and 'str'
 
 　　使用`+`拼接任何数据与字符串时都需要先将任何数据转为字符串类型。
 
-范例：改正以上错误（修改文件int.py）
+　　范例：改正以上错误（修改文件int.py）
 
 ```python
 num_a = int(input("请输入第一个整数："))
@@ -463,7 +463,7 @@ result = num_a + num_b
 print(str(num_a)+"+"+str(num_b)+"="+str(result))
 ```
 
-打印结果：
+　　打印结果：
 
 ```
 请输入第一个整数：12
@@ -494,7 +494,7 @@ print(str(num_a)+"+"+str(num_b)+"="+str(result))
 |  %u  |           输出无符号整型            |  %o  |         输出无符号八进制数          |
 |  %x  |        输出无符号十六进制数         |  %X  |  输出无符号十六进制数（大写字母）   |
 
-范例：格式化输出标记（新建文件format1.py）
+　　范例：格式化输出标记（新建文件format1.py）
 
 ```python
 age = 23
@@ -504,7 +504,7 @@ message = "ql今年%d岁，我的个人博客地址：%s，我的qq号码(十六
 print(message)
 ```
 
-打印结果：
+　　打印结果：
 
 ```
 ql今年23岁，我的个人博客地址：https://ql-isaac.github,io，我的qq号码(十六进制)：0X31BD0667。
@@ -520,7 +520,7 @@ ql今年23岁，我的个人博客地址：https://ql-isaac.github,io，我的qq
 |  空格   | 显示位数不足时填充空格 |      |                                                           |
 | （var） |  映射变量（字典参数）  |      |                                                           |
 
-范例：格式化输出辅助标记（一）（新建文件format2.py）
+　　范例：格式化输出辅助标记（一）（新建文件format2.py）
 
 ```python
 num_a = 192.121231311121231
@@ -530,7 +530,7 @@ print("%5.2f,%10.2f"%(num_a,num_b))
 print("%5.2f,%010.2f"%(num_a,num_b))
 ```
 
-打印结果：
+　　打印结果：
 
 ```
 192.121231,98.230000
@@ -538,7 +538,7 @@ print("%5.2f,%010.2f"%(num_a,num_b))
 192.12,0000098.23
 ```
 
-范例：格式化输出辅助标记（二）（修改文件format2.py）
+　　范例：格式化输出辅助标记（二）（修改文件format2.py）
 
 ```python
 num_a = 192.121231311121231
@@ -548,7 +548,7 @@ print("%(num_a)5.2f,%(num_b)10.2f"%vars())
 print("%(num_a)5.2f,%(num_b)010.2f"%vars())
 ```
 
-打印结果：
+　　打印结果：
 
 ```
 192.121231,98.230000
@@ -560,7 +560,7 @@ print("%(num_a)5.2f,%(num_b)010.2f"%vars())
 
 　　默认情况下使用函数print()都会进行换行，如果不希望换行，可以使用“end“参数。
 
-范例：使用“end“参数（新建文件print.py）
+　　范例：使用“end“参数（新建文件print.py）
 
 ```python
 print("Python:Hello,world",end="!")
@@ -568,7 +568,7 @@ print("Hello,ql!",end="\n")
 print("ql:Hello,Python!")
 ```
 
-打印结果：
+　　打印结果：
 
 ```
 Python:Hello,world!Hello,ql!
@@ -589,7 +589,7 @@ ql:Hello,Python!
 |   **   |  幂运算  | 10 ** 3 = 1000 |
 |   //   | 整除计算 |  10 // 3 = 3   |
 
-范例：数学运算符（一）（新建文件arithmetic.py）
+　　范例：数学运算符（一）（新建文件arithmetic.py）
 
 ```python
 result = (1 + 2) * (4 / 2)
@@ -597,14 +597,14 @@ print(result)
 print(type(result)) # 只要进行了除法，返回的数据类型就是浮点型
 ```
 
-打印结果：
+　　打印结果：
 
 ```
 6.0
 <class 'float'>
 ```
 
-范例：数学运算符（二）（修改文件arithmetic.py）
+　　范例：数学运算符（二）（修改文件arithmetic.py）
 
 ```python
 result = (1 + 2) * (4 // 2)
@@ -612,7 +612,7 @@ print(result)
 print(type(result)) 
 ```
 
-打印结果：
+　　打印结果：
 
 ```
 6
@@ -631,7 +631,7 @@ print(type(result))
 |  **=   | a **= b | a = a ** b |
 |  //=   | a //= b | a = a // b |
 
-范例：字符串上使用乘法（新建文件multiplication.py)
+　　范例：字符串上使用乘法（新建文件multiplication.py)
 
 ```python
 message = "Hello,world!"
@@ -639,7 +639,7 @@ message *= 3
 print(message)
 ```
 
-打印结果：
+　　打印结果：
 
 ```
 Hello,world!Hello,world!Hello,world!
@@ -660,14 +660,14 @@ Hello,world!Hello,world!Hello,world!
 
 　　关系运算符除了能针对数值型数据进行比较之外，还能比较字符串，比较字符串实际上就是依次比较字符的编码。
 
-范例：比较字符串（新建文件string.py)
+　　范例：比较字符串（新建文件string.py)
 
 ```python
 print("ql" == "ql")
 print("ql" > "Ql" > "QL")
 ```
 
-打印结果：
+　　打印结果：
 
 ```
 True
@@ -676,13 +676,13 @@ True
 
 　　如果想知道某单个字符字符串的编码，可使用ord()函数。
 
-范例：查看某单个字符字符串的编码（新建文件ord.py）
+　　范例：查看某单个字符字符串的编码（新建文件ord.py）
 
 ```python
 print("小写的“l”的编码：%d，大写的“L”的编码：%d"%(ord("l"),ord("L")))
 ```
 
-打印结果：
+　　打印结果：
 
 ```
 小写的“l”的编码：108，大写的“L”的编码：76
@@ -726,7 +726,7 @@ print("小写的“l”的编码：%d，大写的“L”的编码：%d"%(ord("l"
 
 　　Python中所有的数据类型都为引用数据类型，id()函数可以获取相应的内存地址。
 
-范例：id()函数（新建文件id.py)
+　　范例：id()函数（新建文件id.py)
 
 ```python
 num_a = 2
@@ -737,7 +737,7 @@ print("num_b变量的地址：%d"%id(num_b))
 print("num_c变量的地址：%d"%id(num_c))
 ```
 
-打印结果：
+　　打印结果：
 
 ```
 num_a变量的地址：1757145024
@@ -747,7 +747,7 @@ num_c变量的地址：1757145024
 
 　　Python中相等比较运算符`==`类似于Java中的`equals()`。
 
-范例：内容相等比较（新建文件equals.py)
+　　范例：内容相等比较（新建文件equals.py)
 
 ```python
 num_a = 2 # 整形
@@ -755,7 +755,7 @@ num_b =2.0 # 浮点型
 print("整形变量地址：%d，浮点型变量地址：%d，两者内容是否相等：%s"%(id(num_a),id(num_b),(num_a == num_b)))
 ```
 
-打印结果：
+　　打印结果：
 
 ```
 整形变量地址：1757145024，浮点型变量地址：11878208，两者内容是否相等：True
@@ -768,7 +768,7 @@ print("整形变量地址：%d，浮点型变量地址：%d，两者内容是否
 |   is   | 判断是否引用同一内存 |
 | is not | 判断是否引用不同内存 |
 
-范例：内存地址相等比较（修改文件equals.py)
+　　范例：内存地址相等比较（修改文件equals.py)
 
 ```python
 num_a = 2 # 整形
@@ -776,7 +776,7 @@ num_b = 2.0 # 浮点型
 print("整形变量地址：%d，浮点型变量地址：%d，两者地址是否相等：%s"%(id(num_a),id(num_b),(num_a is num_b)))
 ```
 
-打印结果：
+　　打印结果：
 
 ```
 整形变量地址：1757145024，浮点型变量地址：16400192，两者内容是否相等：False
@@ -820,7 +820,7 @@ else:
 
 　　不得不说说Python中的缩进，Python根据缩进来判断代码行与前一个代码行的关系，类似于C和Java语言的大括号，PEP8建议每级缩进都使用四个空格，这既可提高可读性，又留下了足够多的多级缩进空间。
 
-范例：判断闰年（新建文件leap_year.py)
+　　范例：判断闰年（新建文件leap_year.py)
 
 ```python
 year = int(input("请输入一个年份："))
@@ -848,7 +848,7 @@ while <循环条件>:
     <修改循环条件>
 ```
 
-或
+　　或
 
 ```python
 while <循环条件>:
@@ -858,7 +858,7 @@ else:
     <循环条件不满足时执行的语句块>
 ```
 
-范例：进行1~100的自然数的累加（新建文件accumulation.py）
+　　范例：进行1~100的自然数的累加（新建文件accumulation.py）
 
 ```python
 sum = 0
@@ -869,13 +869,13 @@ while num <= 100:
 print(sum)
 ```
 
-打印结果：
+　　打印结果：
 
 ```
 5050
 ```
 
-范例：打印1000以内的斐波那契数列（新建文件fibonacci_sequence.py)
+　　范例：打印1000以内的斐波那契数列（新建文件fibonacci_sequence.py)
 
 ```python
 num_a = 0
@@ -901,7 +901,7 @@ while num_b < 1000:
 
 　　直接使用一对中括号定义列表，可使用索引访问列表元素，从0开始。
 
-范例：定义列表（新建文件list.py）
+　　范例：定义列表（新建文件list.py）
 
 ```Python
 infos = ["C/C++","Java","Python"]
@@ -910,7 +910,7 @@ print(infos[1],end="、")
 print(infos[2])
 ```
 
-打印结果：
+　　打印结果：
 
 ```
 C/C++、Java、Python
@@ -918,7 +918,7 @@ C/C++、Java、Python
 
 #### 列表的特性
 
-范例：空列表不等同于None（新建文件None.py）
+　　范例：空列表不等同于None（新建文件None.py）
 
 ```python
 list_a = []
@@ -927,14 +927,14 @@ print("list_a的地址为%d，类型为%s"%(id(list_a),type(list_a))
 print("list_b的地址为%d，类型为%s"%(id(list_b),type(list_b))
 ```
 
-打印结果：
+　　打印结果：
 
 ```
 list_a的地址为13626696，类型为<class 'list'>
 list_b的地址为1453821160，类型为<class 'NoneType'>
 ```
 
-范例：在进行索引访问时不能越界（修改文件list.py）
+　　范例：在进行索引访问时不能越界（修改文件list.py）
 
 ```python
 infos = ["C/C++","Java","Python"]
@@ -944,7 +944,7 @@ print(infos[2])
 print(infos[3])
 ```
 
-打印结果：
+　　打印结果：
 
 ```
 C/C++、Java、Python
@@ -954,7 +954,7 @@ Traceback (most recent call last):
 IndexError: list index out of range
 ```
 
-范例：列表除了可以正向索引访问之外，还可以反向索引访问（修改文件list.py）
+　　范例：列表除了可以正向索引访问之外，还可以反向索引访问（修改文件list.py）
 
 ```python
 infos = ["C/C++","Java","Python"]
@@ -963,13 +963,13 @@ print(infos[-2],end="、")
 print(infos[-1])
 ```
 
-打印结果：
+　　打印结果：
 
 ```
 C/C++、Java、Python
 ```
 
-范例：通过列表保存多种数据类型（新建文件python.py)
+　　范例：通过列表保存多种数据类型（新建文件python.py)
 
 ```python
 infos = ["Python","简洁",["列表元素1","列表元素2","列表元素3"]] # 数据的意义：编程语言（Python），特点（简洁），举例（列表）
@@ -978,13 +978,13 @@ print("特点：%s"%infos[1],end="、")
 print("举例：%s"%infos[2])
 ```
 
-打印结果：
+　　打印结果：
 
 ```
 编程语言：Python、特点：简洁、举例：['列表元素1', '列表元素2', '列表元素3']
 ```
 
-范例：使用for循环迭代输出（修改文件list.py）
+　　范例：使用for循环迭代输出（修改文件list.py）
 
 ```python
 infos = ["C/C++","Java","Python"]
@@ -992,7 +992,7 @@ for pl in infos:
     print(pl)
 ```
 
-打印结果：
+　　打印结果：
 
 ```
 C/C++
@@ -1000,7 +1000,7 @@ Java
 Python
 ```
 
-范例：使用for循环索引访问输出（修改文件list.py）
+　　范例：使用for循环索引访问输出（修改文件list.py）
 
 ```python
 infos = ["C/C++","Java","Python"]
@@ -1008,7 +1008,7 @@ for index in range(len(infos)):
     print(infos[index])
 ```
 
-打印结果：
+　　打印结果：
 
 ```
 C/C++
@@ -1016,7 +1016,7 @@ Java
 Python
 ```
 
-范例：根据索引修改数据内容（修改文件list.py）
+　　范例：根据索引修改数据内容（修改文件list.py）
 
 ```python
 infos = ["C/C++","Java","Python"]
@@ -1026,33 +1026,33 @@ print(infos[1],end="、")
 print(infos[2])
 ```
 
-打印结果：
+　　打印结果：
 
 ```
 C/C++、PHP、Python
 ```
 
-范例：使用乘法（新建文件multiply.py）
+　　范例：使用乘法（新建文件multiply.py）
 
 ```python
 infos = ["C/C++","Java","Python"] * 3
 print(infos)
 ```
 
-打印结果：
+　　打印结果：
 
 ```
 ['C/C++', 'Java', 'Python', 'C/C++', 'Java', 'Python', 'C/C++', 'Java', 'Python']
 ```
 
-范例：使用加法（新建文件add.py)
+　　范例：使用加法（新建文件add.py)
 
 ```python
 infos = ["C/C++","Java","Python"] + ["PHP"]
 print(infos)
 ```
 
-打印结果：
+　　打印结果：
 
 ```
 ['C/C++', 'Java', 'Python', 'PHP']
@@ -1062,19 +1062,13 @@ print(infos)
 
 　　列表的数据分片，即截取列表的一部分，即子列表
 
-​    
-
 ### 元组
 
 ### 序列统计函数
 
 ## 函数
 
-
-
 ## 函数深入
-
-
 
 ### lambda表达式
 
