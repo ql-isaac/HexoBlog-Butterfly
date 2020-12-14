@@ -45,7 +45,7 @@ categories: Python 从入门到实践
 
 　　新建一个学习文件夹，打开Visual Studio Code，打开文件夹，如下图，选择学习文件夹打开，再新建文件夹，命名为20200203（以当天的年月日命名），在该文件夹下新建文件，命名为hello_world.py，文件中输入以下一行代码，Ctrl+S保存。
 
-```python D:\Python Learning\（一）\20200203\hello_world.py
+```python
 print("Hello,world!")
 ```
 
@@ -66,7 +66,7 @@ print("Hello,world!")
 
 　　范例：使用变量（修改文件hello_world.py）
 
-```python D:\Python Learning\（一）\20200203\hello_world.py
+```python
 message = "Hello,world!"
 print(message)
 message = "Hello,ql!"
@@ -84,7 +84,7 @@ Hello,ql!
 
 　　范例：为多个变量赋值（修改文件hello_world.py）
 
-```python D:\Python Learning\（一）\20200203\hello_world.py
+```python
 message1, message2 = "Hello,world!", "Hello,ql!"
 print(message1)
 print(message2)
@@ -101,7 +101,7 @@ Hello,ql!
 
 　　范例：定义变量但是不设置内容(新建文件None.py)
 
-```python D:\Python Learning\（一）\20200203\None.py
+```python
 message = None # 空引用
 print(message)
 ```
@@ -116,7 +116,7 @@ None
 
 　　范例：使用`;`对一行中的多个变量进行区分（新建文件hello_ql.py)
 
-```python D:\Python Learning\（一）\20200203\hello_ql.py
+```python
 message = "Hello,world" ;print(message) ;message = "Hello,ql!" ;print(message)
 ```
 
@@ -141,7 +141,7 @@ Hello,ql!
 
 　　范例：通过type()函数查看数据类型(新建文件type.py)
 
-```python D:\Python Learning\（一）\20200204\type.py
+```python
 message = "Hello,world!"
 print(type(message))
 ```
@@ -158,7 +158,7 @@ print(type(message))
 
 　　范例：两个整数相除（新建文件num.py)
 
-```python D:\Python Learning\（一）\20200204\num.py
+```python
 num_a = 10
 num_b = 4
 print(num_a/num_b)
@@ -172,7 +172,7 @@ print(num_a/num_b)
 
 　　范例：获取数据类型（修改文件num.py)
 
-```python D:\Python Learning\（一）\20200204\num.py
+```python
 num_a = 10
 num_b = 4
 print(num_a/num_b)
@@ -195,7 +195,7 @@ print(type(num_a/num_b))
 
 　　范例：使用复数（一）（新建文件complex.py)
 
-```python D:\Python Learning\（一）\20200204\complex.py
+```python
 num = complex(10,2) # 实部为10，虚部为2
 print(num)
 ```
@@ -208,7 +208,7 @@ print(num)
 
 　　范例：使用复数（二）（修改文件complex.py）
 
-```python D:\Python Learning\（一）\20200204\complex.py
+```python
 num = complex(10,2) # 实部为10，虚部为2
 print(num)
 print(num.real) # 获取实部
@@ -231,7 +231,7 @@ print(num.conjugate()) # 获取共轭复数
 
 　　范例：使用布尔（一）（新建文件boolean.py)
 
-```python D:\Python Learning\（一）\20200204\boolean.py
+```python
 flag = True # Python中的True是首字母大写的
 if flag: # 分支语句
         print("Hello,world!")
@@ -247,7 +247,7 @@ Hello,world!
 
 　　范例：使用布尔（二）（修改文件boolean.py)
 
-```python D:\Python Learning\（一）\20200204\boolean.py
+```python
 flag = 1 # 非0
 if flag: # 分支语句
         print("Hello,world!")
@@ -265,7 +265,7 @@ Hello,world!
 
 　　范例：引号嵌套（新建文件quotation_mark.py)
 
-```python D:\Python Learning\（一）\20200205\quotation_mark.py
+```python
 message = '"Hello,world!"' # 使用单引号定义字符串
 print(message)
 message = "'Hello,ql!'" # 使用双引号定义字符串
@@ -283,7 +283,7 @@ print(message)
 
 　　范例：字符串的拼接（新建文件string.py)
 
-```python D:\Python Learning\（一）\20200205\string.py
+```python
 message = "Hello,world!,"+"Hello,ql!"
 print(message)
 ```
@@ -308,7 +308,7 @@ Hello,world!,Hello,ql!
 
 　　范例：使用转义字符串（新建文件escape.py)
 
-```Python D:\Python Learning\（一）\20200205\escape.py
+```Python
 message = "Python:\"Hello,world!\"\n\tPython:\"Hello,ql!\""
 ```
 
