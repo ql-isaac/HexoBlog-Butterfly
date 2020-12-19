@@ -835,7 +835,7 @@ inject:
   - <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+SC&display=swap" rel="stylesheet">
   bottom:
   - <script src="https://myhkw.cn/player/js/player.js" id="myhk" key="16072695802" m="1"></script>
-
+  - <script src="https://cdn.bootcdn.net/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 # CDN
 # Don't modify the following settings unless you know how they work
 # 非必要請不要修改
