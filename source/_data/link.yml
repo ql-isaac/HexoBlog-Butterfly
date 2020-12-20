@@ -62,6 +62,10 @@
       link: https://weilining.cf
       avatar: https://cdn.jsdelivr.net/gh/weilining/img@main/img/20201120235415.png
       descr: 时不我待
+    - name: CC的部落格
+      link: https://blog.ccknbc.cc
+      avatar: https://cdn.jsdelivr.net/gh/ccknbc-backup/cdn/logo/ccknbc.png
+      descr: CC康纳百川
 
 - class_name: 网站
   class_desc: 值得推荐的网站

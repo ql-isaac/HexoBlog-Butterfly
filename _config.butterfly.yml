@@ -86,7 +86,7 @@ favicon: /img/favicon.png
 # Avatar (頭像)
 avatar:
   img: https://image.ql-isaac.cn/站长头像.jpg
-  effect: true
+  effect: false
 
 #The banner image of home page
 index_img: https://image.ql-isaac.cn/%E7%8E%84%E6%AD%A6%E6%B9%96%E5%85%AC%E5%9B%AD%E7%9A%84%E9%87%91%E8%89%B2%E9%93%B6%E6%9D%8F%E5%8F%B6.jpg
@@ -375,13 +375,8 @@ footer:
   owner:
     enable: true
     since: 2020
-  custom_text:
+  custom_text: <div class="icp"><a target="_blank" rel="noopener external nofollow noreferrer" href="https://beian.miit.gov.cn"><i class="fa fa-registered" aria-hidden="true"></i><span>京ICP备20031573号-1</span></a></div>
   copyright: true # Copyright of theme and framework
-  ICP: # Chinese ICP License
-    enable: true
-    url: https://beian.miit.gov.cn/
-    text: 京ICP备20031573号-1
-    icon: /img/icp.png
 
 # Analysis
 # --------------------------------------
