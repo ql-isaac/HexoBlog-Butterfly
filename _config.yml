@@ -118,14 +118,14 @@ douban:
     quote: It's a beautiful day!
     meta: true
     comments: true
-    top_img: https://image.ql-isaac.cn/%E9%98%85%E8%AF%BB.jpg
+    top_img: https://image.ql-isaac.cn/%E9%98%85%E8%AF%BB.png
     aside: true
   movie:
     title: It's a beautiful day!
     quote: It's a beautiful day!
     meta: true
     comments: true
-    top_img: https://image.ql-isaac.cn/theater.jpg
+    top_img: https://image.ql-isaac.cn/theater.png
     aside: true
   game:
     title: It's a beautiful day!
