@@ -1,7 +1,7 @@
 ---
 title: 	C 从入门到精通（一）
 date: 2020-11-14 23:24:32
-cover: https://image.ql-isaac.cn/C%E4%BB%8E%E5%85%A5%E9%97%A8%E5%88%B0%E7%B2%BE%E9%80%9A%EF%BC%88%E4%B8%80%EF%BC%89.jpg
+cover: https://image.ql-isaac.cn/C%E4%BB%8E%E5%85%A5%E9%97%A8%E5%88%B0%E7%B2%BE%E9%80%9A%EF%BC%88%E4%B8%80%EF%BC%89.png
 description: 任何比C语言更低级的语言，都不足以完整地抽象一个计算机系统，任何比C语言高级的语言，都可以用C语言实现。C语言不像是被发明的，它更像是被发现的，它无可替代、精妙绝伦。
 tags:
  - Ubuntu 18.04 LTS
