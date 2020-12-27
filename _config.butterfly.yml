@@ -18,6 +18,14 @@ menu:
   切换到NexT版: https://next.ql-isaac.cn/ || fa fa-hand-pointer-o
   #关于: /about/ || fas fa-heart
 
+# 友链样式，butterfly为默认样式，volantis为站点卡片样式。
+flink_style: volantis # butterfly | volantis
+
+# Replace Broken Images (替換無法顯示的圖片)
+error_img:
+  flink:   # 头像失效替换图
+  post_page:  # 站点缩略图
+
 # Hide the child menu items in mobile sidebar
 hide_sidebar_menu_child: false
 
