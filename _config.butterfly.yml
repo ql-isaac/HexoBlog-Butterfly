@@ -358,7 +358,7 @@ tidio:
 # daovoice
 # http://daovoice.io/
 daovoice:
-  enable: false
+  enable: true
   app_id: 006213f1
 
 # gitter
@@ -484,7 +484,7 @@ background:
 footer_bg: false
 
 # the position of bottom right button/default unit: px (右下角按鈕距離底部的距離/默認單位為px)
-rightside-bottom:
+rightside-bottom: 80px
 
 # Enter transitions (開啓網頁進入效果)
 enter_transitions: true
