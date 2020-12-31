@@ -81,6 +81,21 @@
       avatar: https://cdn.jsdelivr.net/gh/ccknbc-backup/cdn/logo/ccknbc.png
       descr: CC康纳百川
       siteshot: https://cdn.jsdelivr.net/gh/ql-isaac/ScreenShot@gh-pages/blog.ccknbc.cc.jpg
+    - name: 风叶的小窝
+      link: https://blog.windandleaf.xyz/
+      avatar: https://blog.windandleaf.xyz/myself/pic_page/head.jpg
+      descr: 念念不忘 必有回响
+      siteshot: https://cdn.jsdelivr.net/gh/ql-isaac/ScreenShot@gh-pages/blog.windandleaf.xyz.jpg
+    - name: 青葱博客
+      link: https://ciraos.top/
+      avatar: https://ciraos.top/mysource/image/avatar.jpg
+      descr: 一切皆付笑谈中
+      siteshot: https://cdn.jsdelivr.net/gh/ql-isaac/ScreenShot@gh-pages/ciraos.top.jpg
+    - name: By_xb
+      link: https://wtnl.xyz/
+      avatar: https://cdn.jsdelivr.net/gh/byxiaobian/CDN//images/actor.jpg
+      descr: 努力做一个有用的人 ! 
+      siteshot: https://cdn.jsdelivr.net/gh/ql-isaac/ScreenShot@gh-pages/wtnl.xyz.jpg
 
 - class_name: 网站
   class_desc: 值得推荐的网站
