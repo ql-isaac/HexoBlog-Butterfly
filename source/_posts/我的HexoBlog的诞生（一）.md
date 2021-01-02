@@ -1,5 +1,5 @@
 ---
-title: 我的 HexoBlog 的诞生（一）
+title: 我的HexoBlog的诞生（一）
 date: 2020-01-24 22:53:24
 cover: https://image.ql-isaac.cn/Working-rafiki.png
 description: 本文记录和讲解一下我的HexoBlog是如何一步一步被部署至Github Pages上的，可供大家参考。部署完成后可参考我的下一篇文章《我的HexoBlog的诞生（二）》对自己的HexoBlog进行个性化设置和配置，不过在此之前，需阅读Hexo官方文档，对Hexo有基本的完整的认识。
@@ -10,7 +10,7 @@ tags:
  - Git v2.25.0.windows.1
  - GitHub
 categories: 
- - 我的 HexoBlog 的诞生
+ - 我的HexoBlog的诞生
 ---
 
 　　本文记录和讲解一下我的HexoBlog是如何一步一步被部署至Github Pages上的，可供大家参考。部署完成后可参考我的下一篇文章《我的HexoBlog的诞生（二）》对自己的HexoBlog进行个性化设置和配置，不过在此之前，需阅读[Hexo官方文档](https://hexo.io/zh-cn/docs/)，对Hexo有基本的完整的认识。

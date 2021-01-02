@@ -1,5 +1,5 @@
 ---
-title: 我的 HexoBlog 的诞生（三）
+title: 我的HexoBlog的诞生（三）
 date: 2020-01-24 22:53:39
 cover: https://image.ql-isaac.cn/Blogging-bro.png
 description: 本文记录和讲解我的HexoBlog的使用，会持续更新。
@@ -9,7 +9,7 @@ tags:
  - Markdown
  - Typora
 categories:
- - 我的 HexoBlog 的诞生
+ - 我的HexoBlog的诞生
 ---
 
 　　本文记录和讲解我的HexoBlog的使用，会持续更新。
