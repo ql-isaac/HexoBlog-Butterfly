@@ -828,7 +828,6 @@ css_prefix: true
 # 插入代码到头部 </head> 之前 和 底部 </body> 之前
 inject:
   head:
-  - <meta name="referrer" content="no-referrer-when-downgrade" />
     # - <link rel="stylesheet" href="/xxx.css">
   - <link rel="preconnect" href="https://fonts.gstatic.com">
   - <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+SC:wght@500;700&display=swap" rel="stylesheet">
