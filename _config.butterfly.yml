@@ -189,14 +189,14 @@ post_copyright:
 
 # Sponsor/reward
 reward:
-  enable: false
+  enable: true
   QR_code:
-    # - img: /img/wechat.jpg
-    #   link:
-    #   text: wechat
-    # - img: /img/alipay.jpg
-    #   link:
-    #   text: alipay
+     - img:
+     - link: https://image.ql-isaac.cn/WeChat.jpg
+       text: WeChat
+     - img:
+       link: https://image.ql-isaac.cn/QQ.jpg
+       text: QQ
 
 # Related Articles
 related_post:
@@ -209,7 +209,7 @@ photofigcaption: true
 
 # anchor
 # when you scroll in post, the URL will update according to header id.
-anchor: false
+anchor: true
 
 # Displays outdated notice for a post (文章過期提醒)
 noticeOutdate:
