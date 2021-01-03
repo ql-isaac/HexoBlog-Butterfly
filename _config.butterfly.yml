@@ -191,11 +191,11 @@ post_copyright:
 reward:
   enable: true
   QR_code:
-     - img:
-     - link: https://image.ql-isaac.cn/WeChat.jpg
+     - img: https://image.ql-isaac.cn/WeChat.jpg
+       link:
        text: WeChat
-     - img:
-       link: https://image.ql-isaac.cn/QQ.jpg
+     - img: https://image.ql-isaac.cn/QQ.jpg
+       link:
        text: QQ
 
 # Related Articles

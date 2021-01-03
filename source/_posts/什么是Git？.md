@@ -35,6 +35,7 @@ categories:
 2. GNU许可证：不看，Next；
 
    ![许可协议](https://image.ql-isaac.cn/%E8%AE%B8%E5%8F%AF%E5%8D%8F%E8%AE%AE.png)
+
 3. 设置安装路径：建议将C改为D，安装在D盘，这里就不改了，Next；
 
    ![设置安装路径](https://image.ql-isaac.cn/%E8%AE%BE%E7%BD%AE%E5%AE%89%E8%A3%85%E8%B7%AF%E5%BE%84.png)
