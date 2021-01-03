@@ -96,6 +96,11 @@
       avatar: https://cdn.jsdelivr.net/gh/byxiaobian/CDN//images/actor.jpg
       descr: 努力做一个有用的人 ! 
       siteshot: https://cdn.jsdelivr.net/gh/ql-isaac/ScreenShot@gh-pages/wtnl.xyz.jpg
+    - name: 一川·MOLIPRE·BLOG
+      link: https://blog.molipre.com/
+      avatar: https://blog.molipre.com/img/touxiang.jpg
+      descr: 读万卷书，行万里路
+      siteshot: https://gitee.com/Molipre/images/raw/master/img/yichuan.png
 
 - class_name: 网站
   class_desc: 值得推荐的网站
