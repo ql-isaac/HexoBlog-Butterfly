@@ -114,8 +114,14 @@
     - name: 卓越科技的Blog
       link: https://zykj.js.org/
       avatar: https://cdn.jsdelivr.net/gh/zykjofficial/zykjofficial.github.io@master/img/avatar.png
-      descr: Remarkable life,for science and technology.
+      descr: Remarkable life,for science and technology
       siteshot: https://cdn.jsdelivr.net/gh/ql-isaac/ScreenShot@gh-pages/zykj.js.org.jpg
+    - name: 三生石
+      link: https://jiazhibo.top/
+      avatar: https://jiazhibo.top/img/tx.png
+      descr: 梦想还是有的，就算做咸鱼，也要做最咸的
+      siteshot: https://cdn.jsdelivr.net/gh/ql-isaac/ScreenShot@gh-pages/jiazhibo.top.jpg
+
 - class_name: 网站
   class_desc: 值得推荐的网站
   link_list:
