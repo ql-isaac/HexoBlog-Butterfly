@@ -12,7 +12,7 @@ if(!is_post())
       !=paginator(options)
 else
   nav#pagination.pagination-post
-if(page.next)
+    if(page.next)
       - var hasPagePrev = page.prev ? 'pull-left' : 'pull-full'
       .prev-post(class=hasPagePrev)
         - var pagination_cover = page.next.cover === false ? page.next.randomcover : page.next.cover
@@ -24,7 +24,7 @@ if(page.next)
           .pagination-info
             .label=_p('pagination.prev')
             .prev_info=page.next.title
-          
+                      
     if(page.prev)
       - var hasPageNext = page.next ? 'pull-right' : 'pull-full'
       - var pagination_cover = page.prev.cover == false ? page.prev.randomcover : page.prev.cover
