@@ -637,8 +637,8 @@ aside:
       text: Follow Me
       link: https://github.com/ql-isaac
   card_announcement:
-    enable: false
-    content: This is my Blog！
+    enable: true
+    content: 每一秒，都值得被留念！
   card_recent_post:
     enable: true
     limit: 5 # if set 0 will show all

@@ -1,6 +1,6 @@
 ---
 title: Python从入门到实践（一）
-date: 2020-11-29 16:08:06
+date: 2020-01-27 18:09:17
 cover: https://image.ql-isaac.cn/Python.png
 description: 在当今的环境下Python逐渐成为一门热门的语言，作为一门有着30年发展历史的编程语言，其在数据分析领域以及人工智能领域发挥着重要作用。Python是基于C语言，一诞生就具备了完善的语法，其给程序员最直观的印象是——它的简洁性。
 tags:
@@ -30,13 +30,13 @@ categories:
 
 ![最新版Python下载](https://image.ql-isaac.cn/最新版Python下载.png)
 
-　　下载完成后运行安装程序，勾选Add Python 3.8 to PATH，点击Customize installation，点击Next，更改安装路径到D盘，点击Install，等待安装完成。按下Windows+R组合键，输入CMD进入命令行窗口，输入python，发现可进入Python交互式环境，如下图。
+　　下载完成后运行安装程序，勾选Add Python 3.8 to PATH，点击Customize installation，点击Next，点击Install，等待安装完成。按下Windows+R组合键，输入CMD进入命令行窗口，输入python，发现可进入Python交互式环境，如下图。
 
 ![Python交互式环境](https://image.ql-isaac.cn/Python交互式环境.png)
 
-　　文本编辑器到底哪家强？我推荐Visual Studio Code。前往官网，点击Download for Windows，下载完成后运行安装程序，下一步即可，但建议到下图这一步时勾选上这三个选项，等待安装完成。安装完成后进入Visual Studio Code，点击左边第五个图标，搜索chinese，如下图，点击Install安装简体中文包，安装完成后点击Restart Now，仍然点击左边第五个图标，搜索python，点击第一个，安装。
+　　文本编辑器到底哪家强？我推荐Visual Studio Code。[前往官网](https://code.visualstudio.com/)，点击Download for Windows，下载完成后运行安装程序，下一步即可，但建议到下图这一步时勾选上这三个选项，等待安装完成。安装完成后进入Visual Studio Code，点击左边第五个图标，搜索chinese，如下图，点击Install安装简体中文包，安装完成后点击Restart Now，仍然点击左边第五个图标，搜索python，点击第一个，安装。
 
-![Visual Studio Code-勾选](https://image.ql-isaac.cn/Visual Studio Code-勾选.png)
+![勾选](https://image.ql-isaac.cn/Visual-Studio-Code-勾选.png)
 
 ![安装简体中文包](https://image.ql-isaac.cn/安装简体中文包.png)
 

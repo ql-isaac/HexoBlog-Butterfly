@@ -1,6 +1,6 @@
 ---
 title: Python从入门到实践（二）
-date: 2020-11-29 16:08:14
+date: 2020-02-10 15:01:37
 cover: https://image.ql-isaac.cn/PyCharm.png
 description: 《Python从入门到实践（一）》是Python初级部分的学习笔记，主要是一些基础方面的内容，本篇就为Python高级部分的学习笔记，主要是一些面向对象方面的内容。
 tags:
