@@ -4,7 +4,6 @@ date: 2020-02-13 19:56:24
 cover: https://image.ql-isaac.cn/C%E4%BB%8E%E5%85%A5%E9%97%A8%E5%88%B0%E7%B2%BE%E9%80%9A%EF%BC%88%E4%B8%80%EF%BC%89.jpg
 description: 任何比C语言更低级的语言，都不足以完整地抽象一个计算机系统，任何比C语言高级的语言，都可以用C语言实现。C语言不像是被发明的，它更像是被发现的，它无可替代、精妙绝伦。
 tags:
- - Windows 10 企业版 LTSC
  - Ubuntu 18.04 LTS
  - VMware® Workstation 15 Pro(15.5.0 build-14665864)
 categories: 
@@ -15,15 +14,15 @@ categories:
 
 ## C语言的简单历史
 
-　　C语言是从 B 语言发展而来，B 语言是从 BCPL 发展而来，BCPL 是从 FORTRAN 发展而来。C语言于1972年11月问世，1973 年 3 月，第三版的 Unix 上出现了C 语言的编译器，1973 年 11 月，第四版的 Unix 发布了，这个版本是完全用 C 语言重新写的，1978 年美国电话电报公司（AT&T）贝尔实验室正式发布 C 语言，1983 年美国国家标准局（American National Standards Institute，简称 ANSI）开始制定 C 语言标准，于 1989 年 12 月完成，并在 1990 年春天发布，称之为 ANSI C，有时也被称为 C89 或 C90。
+　　C语言是从B语言发展而来，B语言是从BCPL发展而来，BCPL是从FORTRAN发展而来。C语言于1972年11月问世，1973年3月，第三版的Unix上出现了C语言的编译器，1973年11月，第四版的Unix发布了，这个版本是完全用C语言重新写的，1978年美国电话电报公司（AT&T）贝尔实验室正式发布C语言，1983年美国国家标准局（American National Standards Institute，简称 ANSI）开始制定C语言标准，于1989年12月完成，并在1990年春天发布，称之为ANSI C，有时也被称为C89或C90。
 
 ## 搭建C语言学习环境
 
 ### 安装VMware pro 15
 
-　　下载[学习版](https://www.52pojie.cn/thread-1026907-1-1.html)，安装步骤不多说了，只是有一点建议，也是我装软件的原则：能不装 C 盘就别装 C 盘。
+　　下载[学习版](https://www.52pojie.cn/thread-1026907-1-1.html)，安装步骤不多说了，只是有一点建议，也是我装软件的原则：能不装C盘就别装C盘。
 
-### [下载Ubuntu 18.04 LTS系统映像](https://cn.ubuntu.com/download)
+### 下载Ubuntu 18.04LTS系统映像
 
 ### 安装Ubuntu 18.04LTS
 
@@ -203,7 +202,7 @@ categories:
 
    ![下载图标](https://image.ql-isaac.cn/下载图标.png)
 
-16. 同上，提取到下载中，点击显示文件，右键，在终端打开，输入以下命令回车，输入用户密码，移动McMojave-circle 目录；
+16. 同上，提取到下载中，点击显示文件，右键，在终端打开，输入以下命令回车，输入用户密码，移动McMojave-circle目录；
 
    ```bash
    sudo mv McMojave-circle/ /usr/share/icons/

@@ -5,7 +5,7 @@ cover: https://image.ql-isaac.cn/Git.gif
 description: 来记录一下Git for Windows的使用。
 tags:
  - Windows 10 企业版 LTSC
-categories: 
+categories:
  - Git和GitHub从入门到实践
 ---
 

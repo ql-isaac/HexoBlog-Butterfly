@@ -121,6 +121,16 @@
       avatar: https://jiazhibo.top/img/tx.png
       descr: 梦想还是有的，就算做咸鱼，也要做最咸的
       siteshot: https://cdn.jsdelivr.net/gh/ql-isaac/ScreenShot@gh-pages/jiazhibo.top.jpg
+    - name: OG-Liu's Blog
+      link: https://ogliu.com/
+      avatar: https://cdn.jsdelivr.net/gh/og-liu/image-host/20201228114753.jpg
+      descr: 立志如山，行道如水
+      siteshot: https://cdn.jsdelivr.net/gh/ql-isaac/ScreenShot@gh-pages/ogliu.com.jpg
+    - name: GamerNoTitle
+      link: https://bili33.top/
+      avatar: https://cdn.jsdelivr.net/gh/GamerNoTitle/Picture-repo@1.0/AboutMe/logo-mini.png
+      descr: 一个在懵懂无知中成长的高中生程序员^V^
+      siteshot: https://cdn.jsdelivr.net/gh/ql-isaac/ScreenShot@gh-pages/bili33.top.jpg
 
 - class_name: 网站
   class_desc: 值得推荐的网站
