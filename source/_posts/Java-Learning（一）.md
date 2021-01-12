@@ -10,8 +10,6 @@ categories:
  - Java从入门到实践
 ---
 
-　　Java——面向对象编程语言的领军者！
-
 ## 参考视频教程
 
 https://www.bilibili.com/video/av55246614

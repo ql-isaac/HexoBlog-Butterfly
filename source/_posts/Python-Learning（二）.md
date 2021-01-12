@@ -11,8 +11,6 @@ categories:
  - Python从入门到实践
 ---
 
-　　《Python从入门到实践（一）》是Python初级部分的学习笔记，主要是一些基础方面的内容，本篇就为Python高级部分的学习笔记，主要是一些面向对象方面的内容。
-
 ## 搭建实践环境
 
 　　[下载最流行的最新版的Python开发软件PyCharm](https://www.jetbrains.com/pycharm/download/)，建议下载专业版，但是是收费的，如果你和我一样是用来学习的，可以在网上寻找方法免费使用。

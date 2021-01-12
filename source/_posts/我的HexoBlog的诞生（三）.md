@@ -12,8 +12,6 @@ categories:
  - 我的HexoBlog的诞生
 ---
 
-　　本文记录和讲解我的HexoBlog的使用，会持续更新。
-
 ## 使用Typora编辑Markdown文件，书写博客文章
 
 　　通过执行`hexo new post <自定义md文件名>`，相应Markdown文件将在_posts下生成，那么该如何编辑这种Markdown文件，书写自己的博客文章呢？
