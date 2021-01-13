@@ -11,6 +11,8 @@ categories:
 
 　　操作系统作为软件的软件，实在是重中之重。
 
+<!-- more -->
+
 ## 搭建Linux学习环境
 
 ### 安装VMware pro 15

@@ -11,6 +11,8 @@ categories:
 
 　　Java——面向对象编程语言的领军者！
 
+<!-- more -->
+
 ## 参考视频教程
 
 https://www.bilibili.com/video/av55246614

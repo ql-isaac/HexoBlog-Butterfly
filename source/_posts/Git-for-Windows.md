@@ -10,6 +10,8 @@ categories:
 
 　　来记录一下Git for Windows的使用。
 
+<!-- more -->
+
 ## 2020-1-3
 
 　　每次打开VS Code时右下角总提示这个，还是更新一下吧，直接点击更新GIT。

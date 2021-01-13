@@ -11,6 +11,8 @@ categories:
 
 　　参考视频教程：https://www.bilibili.com/video/BV1NJ411M7fE?p=80
 
+<!-- more -->
+
 ## 下载Oracle Database 11g Release 2
 
 　　访问官方[Oracle Database 11g Release 2下载地址](https://www.oracle.com/database/technologies/oracle-database-software-downloads.html)下载即可，注意有两个压缩包，下好后分别右键解压到当前目录，这样就得到了安装文件夹database。

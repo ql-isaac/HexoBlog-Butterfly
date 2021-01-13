@@ -13,6 +13,8 @@ categories:
 
 　　林纳斯·托瓦兹在1991年10月5日发布了开源的Linux，从此，Linux操作系统不断发展壮大，其实Linux的壮大离不开全世界热心的志愿者，他们在世界各地为Linux编写代码，那么，Linux的代码是如何管理的呢？
 
+<!-- more -->、
+
 ## Git的诞生
 
 　　在2002年以前，世界各地的志愿者还是以一种传统的方式将源代码文件发给林纳斯·托瓦兹，然后由他本人通过手工方式合并代码。当时虽然有CSV、SVN这些免费的版本控制系统，但是速度慢、需要联网，也有一些商用的版本控制系统，虽然比CSV、SVN好用，但是不开源，和Linux的开源精神不符。2002年，Linux系统已经发展了十年，代码库之大让[林纳斯·托瓦兹](https://www.baidu.com/s?wd=林纳斯·托瓦兹&tn=SE_PcZhidaonwhc_ngpagmjz&rsv_dl=gh_pc_zhidao)很难继续通过手工方式管理，最终[林纳斯·托瓦兹](https://www.baidu.com/s?wd=林纳斯·托瓦兹&tn=SE_PcZhidaonwhc_ngpagmjz&rsv_dl=gh_pc_zhidao)选择了一个商业的版本控制系统BitKeeper，BitKeeper的东家BitMover公司出于人道主义精神，授权Linux社区免费使用这个版本控制系统，这看起来是一个很好的局面。Linux社区牛人聚集，2005年，开发Samba的Andrew试图破解BitKeeper的协议的行为被 BitMover公司发现，Linux社区的BitKeeper免费使用权被收回，于是，[林纳斯·托瓦兹](https://www.baidu.com/s?wd=林纳斯·托瓦兹&tn=SE_PcZhidaonwhc_ngpagmjz&rsv_dl=gh_pc_zhidao)花了两周时间自己用C写了一个分布式版本控制系统，Git诞生！之后，Git迅速成为最流行的分布式版本控制系统，随即，2008年，GitHub网站上线，它为开源项目免费提供Git存储，无数开源项目开始迁移至GitHub，包括jQuery、PHP、Ruby等等。
