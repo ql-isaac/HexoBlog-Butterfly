@@ -104,7 +104,9 @@ theme: butterfly
 ## Docs: https://hexo.io/docs/one-command-deployment
 deploy:
   type: git  
-  repo: git@e.coding.net:ql-isaac/hexoblog/Butterfly.git    
+  repo: 
+   coding: git@e.coding.net:ql-isaac/hexoblog/Butterfly.git
+   github: git@github.com:ql-isaac/butterfly.ql-isaac.cn.git
   branch: master
 
 aplayer:
