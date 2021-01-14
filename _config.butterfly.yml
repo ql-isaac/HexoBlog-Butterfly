@@ -91,7 +91,7 @@ avatar:
   effect: false
 
 #The banner image of home page
-index_img: https://image.ql-isaac.cn/%E7%8E%84%E6%AD%A6%E6%B9%96%E5%85%AC%E5%9B%AD%E7%9A%84%E9%87%91%E8%89%B2%E9%93%B6%E6%9D%8F%E5%8F%B6.jpg
+index_img:
 
 # If the banner of page not setting, it will show the top_img
 default_top_img: 
@@ -857,6 +857,17 @@ inject:
   bottom:
   - <script src="https://cdn.bootcdn.net/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
   - <script src="https://myhkw.cn/player/js/player.js" id="myhk" key="16072695802" m="1"></script>
+  - <script data-pjax aysnc src="https://cdn.jsdelivr.net/gh/zykjofficial/zykjofficial.github.io@master/js/ZYKJTools.js"></script>
+  - <script>
+      var ql = new ZYKJTools({log:false});
+      ql.randomBanner(
+        "https://cdn.jsdelivr.net/gh/ql-isaac/CDN1/banner-image/",
+        ".jpg",
+        1,
+        10,
+      );
+  - </script>    
+
 # CDN
 # Don't modify the following settings unless you know how they work
 # 非必要請不要修改
