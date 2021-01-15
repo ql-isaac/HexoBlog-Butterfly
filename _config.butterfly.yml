@@ -865,7 +865,7 @@ inject:
         ".jpg",
         1,
         10,
-        false;
+        false
       );
   - </script>    
 
