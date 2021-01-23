@@ -1,13 +1,9 @@
-# This is a basic workflow to help you get started with Actions
-
 name: CI
 
 # Controls when the action will run. 
 on:
   # Triggers the workflow on push or pull request events but only for the main branch
   push:
-    branches: [ main ]
-  pull_request:
     branches: [ main ]
 
   # Allows you to run this workflow manually from the Actions tab
@@ -51,8 +47,12 @@ jobs:
       
       - name: Deploy my HexoBlog
         run: |
-          hexo clean && hexo g && hexo deploy
-        
-      
-      
-
+          hexo clean && hexo g
+          cd ./public
+          git init
+          git config user.name "${{secrets.GIT_NAME}}"
+          git config user.email "${{secrets.GIT_EMAIL}}"
+          git add .
+          git commit -m "Site updated"
+          git push --force --quiet "https://${{secrets.GH_TOKEN}}@${{secrets.GH_REF}}"
+          git push --force --quiet "https://${{secrets.CD_TOKEN}}@${{secrets.CD_REF}}"
