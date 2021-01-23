@@ -54,5 +54,5 @@ jobs:
           git config user.email "${{secrets.GIT_EMAIL}}"
           git add .
           git commit -m "Site updated"
-          git push --force --quiet "https://${{secrets.GH_TOKEN}}@${{secrets.GH_REF}}"
-          git push --force --quiet "https://${{secrets.CD_TOKEN}}@${{secrets.CD_REF}}"
+          git push --force --quiet "https://${{secrets.GH_TOKEN}}@${{secrets.GH_REF}}" master:master
+          git push --force --quiet "https://${{secrets.CD_TOKEN}}@${{secrets.CD_REF}}" master:master
