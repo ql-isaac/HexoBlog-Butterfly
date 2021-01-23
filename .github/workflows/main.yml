@@ -40,7 +40,7 @@ jobs:
           restore-keys: |
             ${{ runner.os }}-node-
       
-      - name: Install Dependencies
+      - name: Install dependencies
         if: steps.cache-dependencies.outputs.cache-hit != 'true'
         run: |
           npm install
@@ -55,4 +55,4 @@ jobs:
           git add .
           git commit -m "Site updated"
           git push --force --quiet "https://${{secrets.GH_TOKEN}}@${{secrets.GH_REF}}" master:master
-          git push --force --quiet "https://${{secrets.CD_TOKEN}}@${{secrets.CD_REF}}" master:master
+          git push --force --quiet "https://ql-isaac:${{secrets.CD_TOKEN}}@${{secrets.CD_REF}}" master:master
