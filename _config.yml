@@ -105,9 +105,8 @@ theme: butterfly
 deploy:
   type: git  
   repo: 
-   coding: git@e.coding.net:ql-isaac/hexoblog/Butterfly.git
-   github: git@github.com:ql-isaac/butterfly.ql-isaac.cn.git
-  branch: master
+   coding: git@e.coding.net:ql-isaac/hexoblog/Butterfly.git,master
+   github: git@github.com:ql-isaac/butterfly.ql-isaac.cn.git,master
 
 aplayer:
   asset_inject: false
