@@ -6,7 +6,7 @@ top_img: https://image.ql-isaac.cn/233.jpg
 ---
 ## 本个人博客基本信息
 名称：学习与生活
-地址：https://blog.ql-isaac.cn/
+地址：`https://ql-isaac.cn/`
 站长头像：https://image.ql-isaac.cn/站长头像.jpg
 简介：It’s a beautiful day!
 ## 本个人博客友链（Butterfly主题）

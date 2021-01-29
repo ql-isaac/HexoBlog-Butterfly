@@ -136,15 +136,25 @@
       avatar: https://cdn.jsdelivr.net/gh/tzy13755126023/BLOG_SOURCE/theme_f/avater.jpg
       descr: 学习与交流的乐园，希望能和你成为好朋友
       siteshot: https://cdn.jsdelivr.net/gh/ql-isaac/ScreenShot@gh-pages/ethant.top.jpg
+    - name: SL's Blog
+      link: https://blog.slqwq.cn/
+      avatar: https://cdn.slblog.ga/pic/logo.png
+      descr: 梦中做梦，做了个白日梦
+      siteshot: https://cdn.jsdelivr.net/gh/ql-isaac/ScreenShot@gh-pages/blog.slqwq.cn.jpg
+    - name: 青春永不落幕
+      link: https://qcyblm.gitee.io/
+      avatar: https://qcyblm.gitee.io/favicon.ico
+      descr: 一位网页设计和收集Windows平台软件的爱好者
+      siteshot: https://cdn.jsdelivr.net/gh/ql-isaac/ScreenShot@gh-pages/qcyblm.gitee.io.jpg
 
 - class_name: 网站
   class_desc: 值得推荐的网站
   link_list:
     - name: 学习与生活
-      link: https://ql-isaac.cn/
+      link: https://blogs.ql-isaac.cn/
       avatar: https://image.ql-isaac.cn/站长头像.jpg
       descr: 博客站点
-      siteshot: https://cdn.jsdelivr.net/gh/ql-isaac/ScreenShot@gh-pages/ql-isaac.cn.jpg
+      siteshot: https://cdn.jsdelivr.net/gh/ql-isaac/ScreenShot@gh-pages/blogs.ql-isaac.cn.jpg
     - name: Hexo
       link: https://hexo.io/zh-cn/
       avatar: https://d33wubrfki0l68.cloudfront.net/6657ba50e702d84afb32fe846bed54fba1a77add/827ae/logo.svg
