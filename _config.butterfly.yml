@@ -855,8 +855,6 @@ inject:
   - <link rel="preconnect" href="https://fonts.gstatic.com">
   - <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+SC:wght@500;700&display=swap" rel="stylesheet">
   bottom:
-  - <script src="https://cdn.bootcdn.net/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-  - <script src="https://myhkw.cn/player/js/player.js" id="myhk" key="16072695802" m="1"></script>
   - <script aysnc src="https://cdn.jsdelivr.net/gh/zykjofficial/zykjofficial.github.io@master/js/ZYKJTools.js"></script>
   - <script>var zykj = new ZYKJTools({log:false});zykj.bannerlist = [
       'https://cdn.jsdelivr.net/gh/ql-isaac/CDN1/banner-images/1.jpg',
