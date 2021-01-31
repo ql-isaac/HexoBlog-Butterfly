@@ -1,5 +1,8 @@
-if (theme.flink_style === 'butterfly')
-  .flink#article-container
+#article-container
+  if top_img === false
+    h1.page-title= page.title
+  if (theme.flink_style === 'butterfly')
+  .flink
     if site.data.link
       each i in site.data.link
         if i.class_name
@@ -18,7 +21,7 @@ if (theme.flink_style === 'butterfly')
                 span.flink-item-desc(title=item.descr)= item.descr
     != page.content
 else if (theme.flink_style === 'volantis')
-  .flink#article-container
+  .flink
     if site.data.link
       each i in site.data.link
         if i.class_name
