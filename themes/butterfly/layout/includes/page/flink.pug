@@ -20,7 +20,7 @@
                 span.flink-item-name= item.name
                 span.flink-item-desc(title=item.descr)= item.descr
     != page.content
-else if (theme.flink_style === 'volantis')
+  else if (theme.flink_style === 'volantis')
   .flink
     if site.data.link
       each i in site.data.link
