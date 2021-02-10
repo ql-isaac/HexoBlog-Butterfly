@@ -52,7 +52,7 @@ categories:
 
 ![默认](https://image.ql-isaac.cn/Git-for-Windows/默认.png)
 
-　　credential helper，凭据帮助器？这是个什么玩意儿？start一下这个[cross-platform version of the Git Credential Manager](https://github.com/microsoft/Git-Credential-Manager-Core)先，有时间看看（虽然看不懂）。
+　　credential helper，凭据帮助器？这是个什么玩意儿？star一下这个[cross-platform version of the Git Credential Manager](https://github.com/microsoft/Git-Credential-Manager-Core)先，有时间看看（虽然看不懂）。
 
 ![credential helper](https://image.ql-isaac.cn/Git-for-Windows/credential-helper.png)
 
