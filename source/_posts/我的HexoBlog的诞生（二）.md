@@ -18,7 +18,8 @@ categories:
 
 ## Hexo的个性化设置和配置
 
-### NexT的下载和设置
+### 下载和设置NexT主题
+　　原版的landscape主题并不好看，在网上搜索了一下，发现NexT主题是最受欢迎的。
 
 　　在<存储HexoBlog的文件夹>下进入终端，输入如下命令，等待NexT下载到当前文件夹下themes下next下。
 

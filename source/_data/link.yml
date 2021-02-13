@@ -146,6 +146,11 @@
       avatar: https://qcyblm.gitee.io/favicon.ico
       descr: 一位网页设计和收集Windows平台软件的爱好者
       siteshot: https://cdn.jsdelivr.net/gh/ql-isaac/ScreenShot@gh-pages/qcyblm.gitee.io.jpg
+    - name: CC的部落格
+      link: https://blog.ccknbc.cc/
+      avatar: https://cdn.jsdelivr.net/gh/ccknbc-backup/cdn/logo/ccknbc.png
+      descr: CC康纳百川
+      siteshot: https://cdn.jsdelivr.net/gh/ql-isaac/ScreenShot@gh-pages/blog.ccknbc.cc.jpg
 
 - class_name: 网站
   class_desc: 值得推荐的网站
