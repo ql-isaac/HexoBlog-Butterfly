@@ -51,9 +51,7 @@ categories:
 
 ### 本地部署我的HexoBlog
 
-10. 在终端输入`hexo s`，打开浏览器，输入localhost:4000，可看到本地部署的我的HexoBlog，如下图所示；
-
-![本地部署的我的HexoBlog](https://image.ql-isaac.cn/本地部署的我的HexoBlog.png)
+10. 在终端输入`hexo s`，之后打开浏览器，输入localhost:4000，可看到本地部署的我的HexoBlog，表明没什么问题；
 
 ### 部署至Github Pages
 
@@ -78,7 +76,7 @@ categories:
     +  branch: master
     ```
 
-13. 在终端输入`hexo g -d`，回车，进行博客的最终操作——生成静态文件后立即部署到Github Pages上（建议每次想把本地博客上传到Gihub Pages时，都使用该命令）；
+13. 在终端输入`hexo g -d`，回车，进行博客的最终操作——生成静态文件后立即部署到Github Pages上；
 
 14. [大功告成](https://ql-isaac.github.io)（将ql-isaac替换成自己的Github用户名）。
 

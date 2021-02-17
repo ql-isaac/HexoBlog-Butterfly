@@ -10,11 +10,13 @@ categories:
  - 我的HexoBlog的诞生
 ---
 
-　　本文记录和讲解一下我的HexoBlog是如何个性化设置和配置的，可供大家参考，会持续更新。关于NexT这一主题的具体使用，大家还需参考NexT官方博客、NexT官方文档和搜索引擎。
-
-　　小技巧：个性化设置和配置了一处自己的HexoBlog，可以通过本地部署的方式（即在<存储HexoBlog的文件夹>下进入终端，输入`hexo s`）观察相应效果，甚至可以修改一处，刷新一下查看效果，等都设置和配置完毕了再部署到Github Pages上。
+　　本文记录和讲解一下我的HexoBlog是如何个性化设置和配置的，可供大家参考，我会持续更新，保持和[我的HexoBlog](https://ql-isaac.github.io)的同步。
 
 <!-- more -->
+
+## 重要提示
+
+　　个性化设置和配置了一处自己的HexoBlog，可以通过本地部署的方式（即在<存储HexoBlog的文件夹>下进入终端，输入`hexo s`）查看相应效果，甚至可以直接修改一处，刷新一下查看效果，等都设置和配置完毕了再部署到Github Pages上。即在<存储HexoBlog的文件夹>下进入终端，执行`hexo clean && hexo g -d`。
 
 ## Hexo的个性化设置和配置
 
@@ -242,3 +244,6 @@ search:
 　　在<存储HexoBlog的文件夹>下themes下next下languages下找到zh-CN.yml，menu处，添加books项、movies项和games项对应的翻译，如下图。
 
 ![添加豆瓣页面菜单项简体中文翻译](https://image.ql-isaac.cn/添加豆瓣页面菜单项简体中文翻译.png)
+
+## 结语
+
