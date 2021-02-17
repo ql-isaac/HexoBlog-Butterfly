@@ -27,17 +27,51 @@ categories:
 git clone https://github.com/theme-next/hexo-theme-next themes/next
 ```
 
-　　下载完成后，在<存储HexoBlog的文件夹>下找到_config.yml，此为Hexo的配置文件，打开它，找到theme，设置其值为next，如下图所示（注意在项和值之间有一个空格）。
+　　下载完成后，编辑Hexo的配置文件：
 
-![theme项的设置](https://image.ql-isaac.cn/theme项的设置.png)
+```diff
+# 本行为<存储HexoBlog的文件夹>\_config.yml的第92行（随着Hexo的不断更新，本行对应在你的_config.yml中不一定是第92行，请以实际情况为准）
+# Extensions
+## Plugins: https://hexo.io/plugins/
+## Themes: https://hexo.io/themes/
+-theme: landscape
+```
+
+```diff
+# 本行为<存储HexoBlog的文件夹>\_config.yml的第92行（随着Hexo的不断更新，本行对应在你的_config.yml中不一定是第92行，请以实际情况为准）
+# Extensions
+## Plugins: https://hexo.io/plugins/
+## Themes: https://hexo.io/themes/
++theme: next
+```
 
 ### 配置站点信息
 
-　　打开Hexo的配置文件，在上方有几项，按照下图的对照关系，个性化配置。
+　　编辑Hexo的配置文件，个性化配置即可：
 
-![个性化配置](https://image.ql-isaac.cn/个性化配置.png)
+```diff
+# 本行为<存储HexoBlog的文件夹>\_config.yml的第4行（随着Hexo的不断更新，本行对应在你的_config.yml中不一定是第4行，请以实际情况为准）
+# Site
+-title: Hexo
+-subtitle: ''
+-description: ''
+-keywords:
+-author: John Doe
+-language: en
+-timezone: ''
+```
 
-![个性化配置效果图](https://image.ql-isaac.cn/个性化配置效果图.png)
+```diff
+# 本行为<存储HexoBlog的文件夹>\_config.yml的第4行（随着Hexo的不断更新，本行对应在你的_config.yml中不一定是第4行，请以实际情况为准）
+# Site
++title: isaac's HexoBlog
++subtitle: It's a beautiful day!
++description: 学习与生活
++keywords: 学习与生活
++author: isaac
++language: zh-CN
++timezone: 
+```
 
 ## NexT的个性化设置与配置
 
