@@ -16,7 +16,7 @@ categories:
 
 ## 重要提示
 
-　　个性化设置和配置了一处自己的HexoBlog，可以通过本地部署的方式（即在<存储HexoBlog的文件夹>下进入终端，输入`hexo s`）查看相应效果，甚至可以直接修改一处，刷新一下查看效果，等都设置和配置完毕了再部署到Github Pages上。即在<存储HexoBlog的文件夹>下进入终端，执行`hexo clean && hexo g -d`。
+　　个性化设置和配置了一处自己的HexoBlog，可以通过本地部署的方式（即在<存储HexoBlog的文件夹>下进入终端，输入`hexo s`）查看相应效果，甚至可以直接修改一处，刷新一下查看效果，等都设置和配置完毕了再部署到Github Pages上，即在<存储HexoBlog的文件夹>下进入终端，执行`hexo clean && hexo g -d`。
 
 ## Hexo的个性化设置和配置
 
@@ -49,7 +49,7 @@ git clone https://github.com/theme-next/hexo-theme-next themes/next
 
 ### 配置站点信息
 
-　　编辑Hexo的配置文件，个性化配置即可：
+　　编辑Hexo的配置文件，个性化配置自己的站点信息即可：
 
 ```diff
 # 本行为<存储HexoBlog的文件夹>\_config.yml的第4行（随着Hexo的不断更新，本行对应在你的_config.yml中不一定是第4行，请以实际情况为准）
