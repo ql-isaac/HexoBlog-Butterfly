@@ -88,12 +88,7 @@ cnpm install --save hexo-generator-searchdb
 　　编辑Hexo的配置文件：
 
 ```diff
-# 本行为<存储HexoBlog的文件夹>\_config.yml的第99行（随着Hexo的不断更新，本行对应在你的_config.yml中不一定是第99行，请以实际情况为准
-deploy:  
-  type: git  
-  repo: 
-   github: git@github.com:<自己的Github用户名>/<自己的Github用户名>.github.io.git,master
-+
+# 本行为<存储HexoBlog的文件夹>\_config.yml的第105行（随着Hexo的不断更新，本行对应在你的_config.yml中不一定是第105行，请以实际情况为准
 +search:
 +  path: search.xml
 +  field: post
@@ -104,12 +99,60 @@ deploy:
 　　开启本地搜索功能。编辑NexT的配置文件：
 
 ```diff
-
+# 本行为<存储HexoBlog的文件夹>\themes\next\_config.yml的第750行（随着NexT的不断更新，本行对应在你的_config.yml中不一定是第750行，请以实际情况为准
+# Local Search
+# Dependencies: https://github.com/theme-next/hexo-generator-searchdb
+local_search:
+-  enable: false
+  # If auto, trigger search by changing input.
+  # If manual, trigger search by pressing enter key or search button.
+  trigger: auto
+  # Show top n results per article, show all results by setting to -1
+  top_n_per_article: 1
+  # Unescape html strings to the readable one.
+  unescape: false
+  # Preload the search data when the page loads.
+  preload: false
 ```
 
+```diff
+# 本行为<存储HexoBlog的文件夹>\themes\next\_config.yml的第750行（随着NexT的不断更新，本行对应在你的_config.yml中不一定是第750行，请以实际情况为准
+# Local Search
+# Dependencies: https://github.com/theme-next/hexo-generator-searchdb
+local_search:
++  enable: true
+  # If auto, trigger search by changing input.
+  # If manual, trigger search by pressing enter key or search button.
+  trigger: auto
+  # Show top n results per article, show all results by setting to -1
+  top_n_per_article: 1
+  # Unescape html strings to the readable one.
+  unescape: false
+  # Preload the search data when the page loads.
+  preload: false
+```
 
-
-{% dplayer "url=https://image.ql-isaac.cn/%E5%A2%9E%E5%8A%A0%E6%9C%AC%E5%9C%B0%E6%90%9C%E7%B4%A2%E5%8A%9F%E8%83%BD.mp4" %}
+<div id="dplayer" class="dplayer-video dplayer dplayer-no-danmaku dplayer-paused"></div>
+<script src="https://cdn.jsdelivr.net/npm/jquery@latest/dist/jquery.min.js"></script>
+<script>
+$(function () {
+  const dp = new DPlayer({
+    container: document.getElementById("dplayer"),
+    autoplay: !0,
+    theme: "#42b983",
+    loop: true,
+    lang: "zh-cn",
+    preload: "auto",
+    volume: Number("0"),
+    video: {
+      url: "https://cdn.jsdelivr.net/gh/ql-isaac/CDN2/增加本地搜索功能/增加本地搜索功能.m3u8", //自己的m3u8地址
+      type: "hls",
+      defaultQuality: 0,
+      thumbnails: "thumbnails.jpg",
+    },
+  });
+});
+</script>
 
 ### 添加菜单项并创建相应页面
 

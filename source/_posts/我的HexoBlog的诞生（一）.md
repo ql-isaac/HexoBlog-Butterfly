@@ -64,12 +64,16 @@ categories:
 12. 编辑Hexo的配置文件：
 
     ```diff
-    # 本行为<存储HexoBlog的文件夹>\_config.yml的第99行（随着Hexo的不断更新，本行对应在你的_config.yml中不一定是第99行，请以实际情况为准）
+    # 本行为<存储HexoBlog的文件夹>\_config.yml的第97行（随着Hexo的不断更新，本行对应在你的_config.yml中不一定是第97行，请以实际情况为准）
+    # Deployment
+    ## Docs: https://hexo.io/docs/deployment.html
     deploy:  
     -  type: ''
     ```
     ```diff
-    # 本行为<存储HexoBlog的文件夹>\_config.yml的第99行（随着Hexo的不断更新，本行对应在你的_config.yml中不一定是第99行，请以实际情况为准）
+    # 本行为<存储HexoBlog的文件夹>\_config.yml的第97行（随着Hexo的不断更新，本行对应在你的_config.yml中不一定是第97行，请以实际情况为准）
+    # Deployment
+    ## Docs: https://hexo.io/docs/deployment.html
     deploy:  
     +  type: git  
     +  repo: 
