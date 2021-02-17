@@ -883,8 +883,6 @@ inject:
       'https://cdn.jsdelivr.net/gh/ql-isaac/CDN1/banner-images/13.jpg']
   - </script>
   - <script data-pjax>zykj.randomBanner(false)</script>
-  - <script src="https://cdn.jsdelivr.net/npm/hls.js"></script>
-  - <script src="https://cdn.jsdelivr.net/gh/MoePlayer/DPlayer@master/dist/DPlayer.min.js"></script>
 
 # CDN
 # Don't modify the following settings unless you know how they work
