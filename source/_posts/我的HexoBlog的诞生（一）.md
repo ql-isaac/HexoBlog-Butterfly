@@ -61,7 +61,7 @@ categories:
     cnpm install --save hexo-deployer-git
     ```
 
-12. 在<存储HexoBlog的文件夹>中找到_config.yml，用文本编辑器编辑，如下所示，保存关闭：
+12. 编辑Hexo的配置文件：
 
     ```diff
     # 本行为<存储HexoBlog的文件夹>\_config.yml的第99行（随着Hexo的不断更新，本行对应在你的_config.yml中不一定是第99行，请以实际情况为准）
@@ -72,8 +72,8 @@ categories:
     # 本行为<存储HexoBlog的文件夹>\_config.yml的第99行（随着Hexo的不断更新，本行对应在你的_config.yml中不一定是第99行，请以实际情况为准）
     deploy:  
     +  type: git  
-    +  repo: git@github.com:<自己的Github用户名>/<自己的Github用户名>.github.io.git         
-    +  branch: master
+    +  repo: 
+    +   github: git@github.com:<自己的Github用户名>/<自己的Github用户名>.github.io.git,master        
     ```
 
 13. 在终端输入`hexo g -d`，回车，进行博客的最终操作——生成静态文件后立即部署到Github Pages上；

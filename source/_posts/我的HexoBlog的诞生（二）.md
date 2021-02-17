@@ -85,14 +85,14 @@ git clone https://github.com/theme-next/hexo-theme-next themes/next
 cnpm install --save hexo-generator-searchdb
 ```
 
-　　编辑Hexo的配置文件，如下：
+　　编辑Hexo的配置文件：
 
 ```diff
-# 本行为<存储HexoBlog的文件夹>\_config.yml的第99行
+# 本行为<存储HexoBlog的文件夹>\_config.yml的第99行（随着Hexo的不断更新，本行对应在你的_config.yml中不一定是第99行，请以实际情况为准
 deploy:  
   type: git  
-  repo: git@github.com:<我的Github用户名>/<我的Github用户名>.github.io.git         
-  branch: master
+  repo: 
+   github: git@github.com:<自己的Github用户名>/<自己的Github用户名>.github.io.git,master
 +
 +search:
 +  path: search.xml
@@ -101,7 +101,13 @@ deploy:
 +  limit: 10000
 ```
 
-　　开启本地搜索功能：打开NexT的配置文件，关键字local_search查找，设置enable为true即可。具体操作如下视频：
+　　开启本地搜索功能。编辑NexT的配置文件：
+
+```diff
+
+```
+
+
 
 {% dplayer "url=https://image.ql-isaac.cn/%E5%A2%9E%E5%8A%A0%E6%9C%AC%E5%9C%B0%E6%90%9C%E7%B4%A2%E5%8A%9F%E8%83%BD.mp4" %}
 
