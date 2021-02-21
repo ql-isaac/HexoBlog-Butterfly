@@ -863,4 +863,158 @@ valine:
 -  enable: false
 -  appid: # Your leancloud application appid
 -  appkey: # Your leancloud application appkey
-  notify: false # Mail notifier
+  notify: false # Mail notifier
+  verify: false # Verification code
+  placeholder: Just go go # Comment box placeholder
+  avatar: mm # Gravatar style
+  guest_info: nick,mail,link # Custom comment header
+  pageSize: 10 # Pagination size
+-  language: # Language, available values: en, zh-cn
+  visitor: false # Article reading statistic
+  comment_count: true # If false, comment count will only be displayed in post page, not in home page
+-  recordIP: false # Whether to record the commenter IP
+  serverURLs: # When the custom domain name is enabled, fill it in here (it will be detected automatically by default, no need to fill in)
+  #post_meta_order: 0
+```
+
+```diff
+# 本行为<存储HexoBlog的文件夹>\themes\next\_config.yml的第621行（随着NexT的不断更新，本行对应在你的_config.yml中不一定是第621行，请以实际情况为准
+# Valine
+# For more information: https://valine.js.org, https://github.com/xCss/Valine
+valine:
++  enable: true
++  appid: <自己的App ID>
++  appkey: <自己的App key>
+  notify: false # Mail notifier
+  verify: false # Verification code
+  placeholder: Just go go # Comment box placeholder
+  avatar: mm # Gravatar style
+  guest_info: nick,mail,link # Custom comment header
+  pageSize: 10 # Pagination size
++  language: zh-cn
+  visitor: false # Article reading statistic
+  comment_count: true # If false, comment count will only be displayed in post page, not in home page
++  recordIP: true # Whether to record the commenter IP
+  serverURLs: # When the custom domain name is enabled, fill it in here (it will be detected automatically by default, no need to fill in)
+  #post_meta_order: 0
+```
+
+###  开启busuanzi统计
+
+　　编辑NexT的配置文件：
+
+```diff
+# 本行为<存储HexoBlog的文件夹>\themes\next\_config.yml的第721行（随着NexT的不断更新，本行对应在你的_config.yml中不一定是第721行，请以实际情况为准
+# Show Views / Visitors of the website / page with busuanzi.
+# Get more information on http://ibruce.info/2015/04/04/busuanzi
+busuanzi_count:
+-  enable: false
+  total_visitors: true
+  total_visitors_icon: user
+  total_views: true
+  total_views_icon: eye
+  post_views: true
+  post_views_icon: eye
+```
+
+```diff
+# 本行为<存储HexoBlog的文件夹>\themes\next\_config.yml的第721行（随着NexT的不断更新，本行对应在你的_config.yml中不一定是第721行，请以实际情况为准
+# Show Views / Visitors of the website / page with busuanzi.
+# Get more information on http://ibruce.info/2015/04/04/busuanzi
+busuanzi_count:
++  enable: true
+  total_visitors: true
+  total_visitors_icon: user
+  total_views: true
+  total_views_icon: eye
+  post_views: true
+  post_views_icon: eye
+```
+
+### 添加本地搜索功能
+
+　　在<存储HexoBlog的文件夹>下进入终端，输入如下命令安装hexo-generator-searchdb模块。
+
+```bash
+cnpm install --save hexo-generator-searchdb
+```
+
+　　开启本地搜索功能。编辑NexT的配置文件：
+
+```diff
+# 本行为<存储HexoBlog的文件夹>\themes\next\_config.yml的第749行（随着NexT的不断更新，本行对应在你的_config.yml中不一定是第749行，请以实际情况为准
+# Local Search
+# Dependencies: https://github.com/theme-next/hexo-generator-searchdb
+local_search:
+-  enable: false
+  # If auto, trigger search by changing input.
+  # If manual, trigger search by pressing enter key or search button.
+  trigger: auto
+  # Show top n results per article, show all results by setting to -1
+  top_n_per_article: 1
+  # Unescape html strings to the readable one.
+  unescape: false
+  # Preload the search data when the page loads.
+  preload: false
+```
+
+```diff
+# 本行为<存储HexoBlog的文件夹>\themes\next\_config.yml的第749行（随着NexT的不断更新，本行对应在你的_config.yml中不一定是第749行，请以实际情况为准
+# Local Search
+# Dependencies: https://github.com/theme-next/hexo-generator-searchdb
+local_search:
++  enable: true
+  # If auto, trigger search by changing input.
+  # If manual, trigger search by pressing enter key or search button.
+  trigger: auto
+  # Show top n results per article, show all results by setting to -1
+  top_n_per_article: 1
+  # Unescape html strings to the readable one.
+  unescape: false
+  # Preload the search data when the page loads.
+  preload: false　
+```
+
+### 设置Note tag
+
+　　编辑NexT的配置文件：
+
+```diff
+# 本行为<存储HexoBlog的文件夹>\themes\next\_config.yml的第794行（随着NexT的不断更新，本行对应在你的_config.yml中不一定是第794行，请以实际情况为准
+# Note tag (bs-callout)
+note:
+  # Note tag style values:
+  #  - simple    bs-callout old alert style. Default.
+  #  - modern    bs-callout new (v2-v3) alert style.
+  #  - flat      flat callout style with background, like on Mozilla or StackOverflow.
+  #  - disabled  disable all CSS styles import of note tag.
+-  style: simple
+-  icons: false
+  # Offset lighter of background in % for modern and flat styles (modern: -12 | 12; flat: -18 | 6).
+  # Offset also applied to label tag variables. This option can work with disabled note tag.
+  light_bg_offset: 0
+```
+
+```diff
+# 本行为<存储HexoBlog的文件夹>\themes\next\_config.yml的第794行（随着NexT的不断更新，本行对应在你的_config.yml中不一定是第794行，请以实际情况为准
+# Note tag (bs-callout)
+note:
+  # Note tag style values:
+  #  - simple    bs-callout old alert style. Default.
+  #  - modern    bs-callout new (v2-v3) alert style.
+  #  - flat      flat callout style with background, like on Mozilla or StackOverflow.
+  #  - disabled  disable all CSS styles import of note tag.
++  style: flat
++  icons: true
+  # Offset lighter of background in % for modern and flat styles (modern: -12 | 12; flat: -18 | 6).
+  # Offset also applied to label tag variables. This option can work with disabled note tag.
+  light_bg_offset: 0
+```
+
+## 参考
+
+https://theme-next.js.org/
+
+https://lixint.github.io/
+
+http://www.dragonbaby308.com/
